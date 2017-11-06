@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="S" format="2">
+  <advance width="678"/>
+  <unicode hex="0053"/>
+  <outline>
+    <contour>
+      <point x="658" y="265" type="curve" smooth="yes"/>
+      <point x="658" y="445"/>
+      <point x="566" y="505.0"/>
+      <point x="432" y="505.0" type="curve" smooth="yes"/>
+      <point x="362" y="505.0" type="line" smooth="yes"/>
+      <point x="291" y="505.0"/>
+      <point x="283" y="510"/>
+      <point x="283" y="527" type="curve" smooth="yes"/>
+      <point x="283" y="544"/>
+      <point x="306" y="550"/>
+      <point x="347" y="550" type="curve" smooth="yes"/>
+      <point x="373" y="550" type="line" smooth="yes"/>
+      <point x="451" y="550"/>
+      <point x="508" y="540"/>
+      <point x="610" y="530" type="curve"/>
+      <point x="626" y="779" type="line"/>
+      <point x="565" y="800"/>
+      <point x="462" y="810"/>
+      <point x="389" y="810" type="curve" smooth="yes"/>
+      <point x="324" y="810" type="line" smooth="yes"/>
+      <point x="107" y="810"/>
+      <point x="20" y="700"/>
+      <point x="20" y="542" type="curve" smooth="yes"/>
+      <point x="20" y="362"/>
+      <point x="144" y="295"/>
+      <point x="268" y="295" type="curve" smooth="yes"/>
+      <point x="328" y="295" type="line" smooth="yes"/>
+      <point x="385.0" y="295.0"/>
+      <point x="396" y="288"/>
+      <point x="396" y="273" type="curve" smooth="yes"/>
+      <point x="396" y="256"/>
+      <point x="380" y="250"/>
+      <point x="344" y="250" type="curve" smooth="yes"/>
+      <point x="291" y="250" type="line" smooth="yes"/>
+      <point x="182" y="250"/>
+      <point x="114" y="260"/>
+      <point x="36" y="280" type="curve"/>
+      <point x="20" y="21" type="line"/>
+      <point x="91" y="5"/>
+      <point x="213" y="-10"/>
+      <point x="279" y="-10" type="curve" smooth="yes"/>
+      <point x="323" y="-10" type="line" smooth="yes"/>
+      <point x="605" y="-10"/>
+      <point x="658" y="114"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
+</glyph>
