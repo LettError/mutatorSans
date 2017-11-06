@@ -60,10 +60,14 @@
 	<string>comma.glif</string>
 	<key>period</key>
 	<string>period.glif</string>
+	<key>quotedblbase</key>
+	<string>quotedblbase.glif</string>
 	<key>quotedblleft</key>
 	<string>quotedblleft.glif</string>
 	<key>quotedblright</key>
 	<string>quotedblright.glif</string>
+	<key>quotesinglbase</key>
+	<string>quotesinglbase.glif</string>
 	<key>semicolon</key>
 	<string>semicolon.glif</string>
 	<key>space</key>

@@ -33,17 +33,39 @@
                 <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Intermediate" filename="MutatorSansIntermediateWide.ufo" stylename="Wide">
-            <location>
-                <dimension name="width" xvalue="1000" />
-                <dimension name="weight" xvalue="634.592750" />
-            </location>
-        </source>
-        <source familyname="Intermediate" filename="MutatorSansIntermediateCondensed.ufo" stylename="Narrow">
+    </sources>
+    <instances>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_1.ufo" stylename="LightCondensed">
             <location>
                 <dimension name="width" xvalue="0" />
-                <dimension name="weight" xvalue="634.592750" />
+                <dimension name="weight" xvalue="0" />
             </location>
-        </source>
-    </sources>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_2.ufo" stylename="BoldCondensed">
+            <location>
+                <dimension name="width" xvalue="0" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_3.ufo" stylename="LightWide">
+            <location>
+                <dimension name="width" xvalue="1000" />
+                <dimension name="weight" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_4.ufo" stylename="BoldWide">
+            <location>
+                <dimension name="width" xvalue="1000" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
 </designspace>

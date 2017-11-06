@@ -2,6 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.defcon.sortDescriptor</key>
+	<array>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>alphabetical</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>category</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>unicode</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>script</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>suffix</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<true/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
+			<string>decompositionBase</string>
+		</dict>
+	</array>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>
@@ -151,10 +202,16 @@
 	</array>
 	<key>public.glyphOrder</key>
 	<array>
-		<string>space</string>
 		<string>A</string>
+		<string>Agrave</string>
+		<string>Aacute</string>
+		<string>Acircumflex</string>
+		<string>Atilde</string>
+		<string>Adieresis</string>
+		<string>Aring</string>
 		<string>B</string>
 		<string>C</string>
+		<string>Ccedilla</string>
 		<string>D</string>
 		<string>E</string>
 		<string>F</string>
@@ -179,6 +236,7 @@
 		<string>Y</string>
 		<string>Z</string>
 		<string>a</string>
+		<string>a_b_c</string>
 		<string>b</string>
 		<string>c</string>
 		<string>d</string>
@@ -206,6 +264,8 @@
 		<string>y</string>
 		<string>z</string>
 		<string>zcaron</string>
+		<string>fi</string>
+		<string>fl</string>
 		<string>zero</string>
 		<string>one</string>
 		<string>two</string>
@@ -221,41 +281,34 @@
 		<string>endash</string>
 		<string>emdash</string>
 		<string>parenleft</string>
-		<string>parenright</string>
 		<string>bracketleft</string>
-		<string>bracketright</string>
 		<string>braceleft</string>
+		<string>quotesinglbase</string>
+		<string>quotedblbase</string>
+		<string>parenright</string>
+		<string>bracketright</string>
 		<string>braceright</string>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>exclam</string>
 		<string>numbersign</string>
 		<string>percent</string>
-		<string>period</string>
+		<string>ampersand</string>
 		<string>comma</string>
+		<string>period</string>
+		<string>slash</string>
 		<string>colon</string>
 		<string>semicolon</string>
-		<string>exclam</string>
 		<string>question</string>
-		<string>slash</string>
-		<string>backslash</string>
-		<string>bar</string>
 		<string>at</string>
-		<string>ampersand</string>
-		<string>paragraph</string>
+		<string>backslash</string>
 		<string>bullet</string>
+		<string>bar</string>
 		<string>dollar</string>
+		<string>paragraph</string>
 		<string>trademark</string>
-		<string>fi</string>
-		<string>fl</string>
+		<string>space</string>
 		<string>.notdef</string>
-		<string>a_b_c</string>
-		<string>Atilde</string>
-		<string>Adieresis</string>
-		<string>Acircumflex</string>
-		<string>Aring</string>
-		<string>Ccedilla</string>
-		<string>Agrave</string>
-		<string>Aacute</string>
-		<string>quotedblright</string>
-		<string>quotedblleft</string>
 	</array>
 </dict>
 </plist>
