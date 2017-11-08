@@ -34,9 +34,9 @@
       <point x="710.0" y="324.74576271186436"/>
       <point x="710" y="517" type="curve" smooth="yes"/>
       <point x="710.0" y="707.7153284671533"/>
-      <point x="601.0" y="801"/>
-      <point x="387" y="801" type="curve" smooth="yes"/>
-      <point x="280" y="801" type="line"/>
+      <point x="601" y="800"/>
+      <point x="387" y="800" type="curve" smooth="yes"/>
+      <point x="280" y="800" type="line"/>
     </contour>
   </outline>
 </glyph>
