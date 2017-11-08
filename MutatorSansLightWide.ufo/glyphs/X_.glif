@@ -12,14 +12,14 @@
       <point x="495" y="351" type="line"/>
     </contour>
     <contour>
-      <point x="40" y="0" type="line"/>
+      <point x="42" y="-2" type="line"/>
       <point x="90" y="0" type="line"/>
-      <point x="509" y="354" type="line"/>
-      <point x="518" y="354" type="line"/>
+      <point x="511" y="351" type="line"/>
+      <point x="523" y="349" type="line"/>
       <point x="970" y="700" type="line"/>
       <point x="920" y="700" type="line"/>
-      <point x="505" y="366" type="line"/>
-      <point x="495" y="366" type="line"/>
+      <point x="503" y="368" type="line"/>
+      <point x="491" y="370" type="line"/>
     </contour>
   </outline>
 </glyph>
