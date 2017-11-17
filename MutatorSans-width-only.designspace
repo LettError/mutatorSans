@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="0" name="width" tag="wdth" />
+    </axes>
+    <sources>
+        <source familyname="MutatorMathTest" filename="MutatorSansLightCondensed.ufo" stylename="LightCondensed">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="width" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="MutatorMathTest" filename="MutatorSansLightWide.ufo" stylename="LightWide">
+            <location>
+                <dimension name="width" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_1.ufo" stylename="LightCondensed">
+            <location>
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_3.ufo" stylename="LightWide">
+            <location>
+                <dimension name="width" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
