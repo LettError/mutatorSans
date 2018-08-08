@@ -5,19 +5,19 @@
   <outline>
     <contour>
       <point x="409" y="-10" type="curve" smooth="yes"/>
-      <point x="434" y="-10" type="line" smooth="yes"/>
+      <point x="434" y="-10" type="line"/>
       <point x="673" y="-10"/>
       <point x="824" y="124"/>
       <point x="824" y="403" type="curve" smooth="yes"/>
       <point x="824" y="679"/>
       <point x="673" y="810"/>
       <point x="434" y="810" type="curve" smooth="yes"/>
-      <point x="409" y="810" type="line" smooth="yes"/>
+      <point x="409" y="810" type="line"/>
       <point x="170" y="810"/>
       <point x="20" y="679"/>
       <point x="20" y="403" type="curve" smooth="yes"/>
       <point x="20" y="124"/>
-      <point x="170" y="-10"/>
+      <point x="170.0" y="-10.0"/>
     </contour>
     <contour>
       <point x="418" y="254" type="line" smooth="yes"/>

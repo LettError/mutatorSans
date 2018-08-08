@@ -27,24 +27,6 @@
                 <dimension name="weight" xvalue="0" />
             </location>
         </source>
-        <source familyname="MutatorMathTest" filename="MutatorSansBoldWide.ufo" stylename="BoldWide">
-            <location>
-                <dimension name="width" xvalue="1000" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Intermediate" filename="MutatorSansIntermediateCondensed.ufo" stylename="Narrow">
-            <location>
-                <dimension name="width" xvalue="0" />
-                <dimension name="weight" xvalue="550" />
-            </location>
-        </source>
-        <source familyname="Intermediate" filename="MutatorSansIntermediateWide.ufo" stylename="Wide">
-            <location>
-                <dimension name="width" xvalue="1000" />
-                <dimension name="weight" xvalue="550" />
-            </location>
-        </source>
     </sources>
     <instances>
         <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_1.ufo" stylename="LightCondensed">
@@ -75,6 +57,14 @@
             <location>
                 <dimension name="width" xvalue="1000" />
                 <dimension name="weight" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Something.ufo" stylename="Something">
+            <location>
+                <dimension name="width" xvalue="503" />
+                <dimension name="weight" xvalue="29" />
             </location>
             <kerning />
             <info />

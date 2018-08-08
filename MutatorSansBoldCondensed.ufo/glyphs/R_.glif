@@ -4,13 +4,13 @@
   <unicode hex="0052"/>
   <outline>
     <contour>
-      <point x="420" y="0" type="line"/>
-      <point x="720" y="0" type="line"/>
-      <point x="667" y="211" type="line" smooth="yes"/>
-      <point x="653" y="265"/>
-      <point x="619" y="304"/>
-      <point x="551" y="304" type="curve"/>
-      <point x="367" y="304" type="line"/>
+      <point x="385" y="0" type="line"/>
+      <point x="705" y="0" type="line"/>
+      <point x="672" y="211" type="line" smooth="yes"/>
+      <point x="663" y="266"/>
+      <point x="624" y="304"/>
+      <point x="556" y="304" type="curve"/>
+      <point x="366" y="304" type="line"/>
     </contour>
     <contour>
       <point x="30" y="0" type="line"/>
@@ -31,12 +31,24 @@
       <point x="280" y="232" type="line"/>
       <point x="398" y="232" type="line" smooth="yes"/>
       <point x="611.0" y="232"/>
-      <point x="710.0" y="324.74576271186436"/>
-      <point x="710" y="517" type="curve" smooth="yes"/>
-      <point x="710.0" y="707.7153284671533"/>
+      <point x="700.0" y="325"/>
+      <point x="700" y="517" type="curve" smooth="yes"/>
+      <point x="700.0" y="708"/>
       <point x="601" y="800"/>
       <point x="387" y="800" type="curve" smooth="yes"/>
       <point x="280" y="800" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
 </glyph>

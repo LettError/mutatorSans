@@ -2,6 +2,7 @@
 <glyph name="E" format="2">
   <advance width="1100"/>
   <unicode hex="0045"/>
+  <anchor x="532" y="746" name="top"/>
   <outline>
     <contour>
       <point x="120" y="0" type="line"/>
@@ -28,4 +29,16 @@
       <point x="140" y="370" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
 </glyph>

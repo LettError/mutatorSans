@@ -13,34 +13,27 @@
 	<key>familyName</key>
 	<string>Intermediate</string>
 	<key>guidelines</key>
-	<array>
-	</array>
+	<array/>
 	<key>italicAngle</key>
 	<integer>0</integer>
 	<key>openTypeOS2VendorID</key>
 	<string>ADBE</string>
 	<key>postscriptBlueValues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptDefaultWidthX</key>
 	<integer>500</integer>
 	<key>postscriptFamilyBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptFamilyOtherBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptOtherBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptSlantAngle</key>
 	<integer>0</integer>
 	<key>postscriptStemSnapH</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptStemSnapV</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptWindowsCharacterSet</key>
 	<integer>1</integer>
 	<key>styleName</key>
