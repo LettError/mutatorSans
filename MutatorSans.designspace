@@ -3,13 +3,11 @@
     <axes>
         <axis default="0" maximum="1000" minimum="0" name="width" tag="wdth" />
         <axis default="0" maximum="1000" minimum="0" name="weight" tag="wght" />
-        <axis default="0" maximum="50" minimum="0" name="space" tag="SPCE" />
     </axes>
     <rules>
         <rule name="fold_I_serifs">
             <conditionset>
-                <condition maximum="328" name="width" />
-                <condition minimum="0" name="weight" />
+                <condition maximum="328" minimum="0" name="width" />
             </conditionset>
             <sub name="I" with="I.narrow" />
         </rule>
@@ -23,35 +21,24 @@
             <location>
                 <dimension name="width" xvalue="0" />
                 <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
             </location>
         </source>
         <source familyname="MutatorMathTest" filename="MutatorSansBoldCondensed.ufo" name="master.MutatorMathTest.BoldCondensed.1" stylename="BoldCondensed">
             <location>
                 <dimension name="width" xvalue="0" />
                 <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
             </location>
         </source>
         <source familyname="MutatorMathTest" filename="MutatorSansLightWide.ufo" name="master.MutatorMathTest.LightWide.2" stylename="LightWide">
             <location>
                 <dimension name="width" xvalue="1000" />
                 <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
             </location>
         </source>
         <source familyname="MutatorMathTest" filename="MutatorSansBoldWide.ufo" name="master.MutatorMathTest.BoldWide.3" stylename="BoldWide">
             <location>
                 <dimension name="width" xvalue="1000" />
                 <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
-            </location>
-        </source>
-        <source familyname="MutatorMathTest" filename="MutatorSansLightCondensed.ufo" layer="support" stylename="LightCondensed">
-            <location>
-                <dimension name="width" xvalue="500" />
-                <dimension name="weight" xvalue="600" />
-                <dimension name="space" xvalue="0" />
             </location>
         </source>
     </sources>
@@ -60,42 +47,36 @@
             <location>
                 <dimension name="width" xvalue="0" />
                 <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
             </location>
             <glyphs>
                 <glyph name="I">
                     <location>
                         <dimension name="width" xvalue="0" />
                         <dimension name="weight" xvalue="0" />
-                        <dimension name="space" xvalue="0" />
                     </location>
                     <masters>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.LightCondensed.0">
                             <location>
                                 <dimension name="width" xvalue="0" />
                                 <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.BoldCondensed.1">
                             <location>
                                 <dimension name="width" xvalue="0" />
                                 <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.LightWide.2">
                             <location>
                                 <dimension name="width" xvalue="1000" />
                                 <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.BoldWide.3">
                             <location>
                                 <dimension name="width" xvalue="1000" />
                                 <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                     </masters>
@@ -108,42 +89,36 @@
             <location>
                 <dimension name="width" xvalue="0" />
                 <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
             </location>
             <glyphs>
                 <glyph name="I">
                     <location>
                         <dimension name="width" xvalue="0" />
                         <dimension name="weight" xvalue="1000" />
-                        <dimension name="space" xvalue="0" />
                     </location>
                     <masters>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.LightCondensed.0">
                             <location>
                                 <dimension name="width" xvalue="0" />
                                 <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.BoldCondensed.1">
                             <location>
                                 <dimension name="width" xvalue="0" />
                                 <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.LightWide.2">
                             <location>
                                 <dimension name="width" xvalue="1000" />
                                 <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                         <master glyphname="I.narrow" source="master.MutatorMathTest.BoldWide.3">
                             <location>
                                 <dimension name="width" xvalue="1000" />
                                 <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
                             </location>
                         </master>
                     </masters>
@@ -156,7 +131,6 @@
             <location>
                 <dimension name="width" xvalue="1000" />
                 <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -165,7 +139,22 @@
             <location>
                 <dimension name="width" xvalue="1000" />
                 <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_1.ufo" stylename="Medium_Narrow_I">
+            <location>
+                <dimension name="width" xvalue="327" />
+                <dimension name="weight" xvalue="500" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Style_1.ufo" stylename="Medium_Wide_I">
+            <location>
+                <dimension name="width" xvalue="327" />
+                <dimension name="weight" xvalue="500" />
             </location>
             <kerning />
             <info />
