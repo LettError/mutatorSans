@@ -163,79 +163,13 @@
     <lib>
         <dict>
             <key>com.letterror.skateboard.interestingLocation</key>
-            <array>
-                <array>
-                    <dict>
-                        <key>space</key>
-                        <real>0.0</real>
-                        <key>weight</key>
-                        <real>676.9253026812688</real>
-                        <key>width</key>
-                        <real>0.0</real>
-                    </dict>
-                    <string>Marked S at space:0, weight:676.925, width:0</string>
-                </array>
-                <array>
-                    <dict>
-                        <key>space</key>
-                        <real>0.0</real>
-                        <key>weight</key>
-                        <real>790.4559154078546</real>
-                        <key>width</key>
-                        <real>0.0</real>
-                    </dict>
-                    <string>Marked S at space:0, weight:790.456, width:0</string>
-                </array>
-                <array>
-                    <dict>
-                        <key>space</key>
-                        <real>0.0</real>
-                        <key>weight</key>
-                        <real>520.927</real>
-                        <key>width</key>
-                        <real>0.0</real>
-                    </dict>
-                    <string>Marked S at space:0, weight:520.927, width:0</string>
-                </array>
-                <array>
-                    <dict>
-                        <key>space</key>
-                        <real>0.0</real>
-                        <key>weight</key>
-                        <real>666.9396221895075</real>
-                        <key>width</key>
-                        <real>0.0</real>
-                    </dict>
-                    <string>Marked E at space:0, weight:666.940, width:0</string>
-                </array>
-            </array>
+            <array />
             <key>com.letterror.skateboard.previewLocation</key>
             <dict>
-                <key>space</key>
-                <real>0.0</real>
                 <key>weight</key>
-                <real>666.94</real>
+                <real>1000.0</real>
                 <key>width</key>
-                <real>0.0</real>
-            </dict>
-            <key>com.superpolator.data</key>
-            <dict>
-                <key>expandRules</key>
-                <false />
-                <key>horizontalPreviewAxis</key>
-                <string>width</string>
-                <key>includeLegacyRules</key>
-                <false />
-                <key>keepWorkFiles</key>
-                <true />
-                <key>outputFormatUFO</key>
-                <integer>3</integer>
-                <key>previewtext</key>
-                <string>HOPA</string>
-                <key>roundGeometry</key>
-                <false />
-                <key>verticalPreviewAxis</key>
-                <string>weight</string>
+                <real>1000.0</real>
             </dict>
         </dict>
     </lib>

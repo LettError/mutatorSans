@@ -19,7 +19,7 @@ widthMax = listFontVariations('MutatorMathTest')['wdth']['maxValue']
 
 
 steps = 50
-txt = 'FISH'
+txt = 'FRISCH'
 
 def ip(a, b, f):
     return a + f*(b-a)
@@ -28,15 +28,15 @@ for i in range(steps):
     angle = 2 * pi * (i / steps)
     a1 = .5+cos(angle)*.5
     a2 = .5+sin(angle)*.5
-    newPage(1100, 300)
+    newPage(1200, 250)
     font("MutatorMathTest")
-    fontSize(120)
+    fontSize(200)
     weightValue = ip(weightMin, weightMax, a1)
     widthValue = ip(widthMin, widthMax, a2)
     fontVariations(wght=weightValue, wdth=widthValue)
     
     
-    text(txt, (70, 70))
+    text(txt, (20, 50))
 
     font("Menlo-Regular")
     fontSize(10)
