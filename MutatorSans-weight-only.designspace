@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<designspace format="3">
+<designspace format="4.0">
     <axes>
         <axis default="0" maximum="1000" minimum="0" name="weight" tag="wght" />
     </axes>
@@ -35,4 +35,13 @@
             <info />
         </instance>
     </instances>
+    <lib>
+        <dict>
+            <key>com.letterror.skateboard.previewLocation</key>
+            <dict>
+                <key>weight</key>
+                <real>0.0</real>
+            </dict>
+        </dict>
+    </lib>
 </designspace>
