@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MutatorSansTest</title>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family:'MutatorSans';
+        src: url('MutatorSans.ttf') format("truetype");
+      }
+      body {
+        font-family:'MutatorSans';
+        text-transform: uppercase;
+        font-size: 3em;
+        line-height: 1.1;
+      }
+      p, input {
+        margin : 0.4em;
+        padding : 0;
+      }
+      output {
+        font-family: monospace;
+        font-size: 0.4em;
+      }
+      #sample0 { font-variation-settings: "wght" 500, "wdth" 327; }
+      #sample1 { font-variation-settings: "wght" 750, "wdth" 600; }
+      #sample2  {
+        font-variation-settings: 'wght' 0, 'wdth' 0;
+        animation-duration: 8s;
+        animation-iteration-count: 3;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        animation-name: mutator-sans-animate;
+      }
+      @keyframes mutator-sans-animate {
+        0%   { font-variation-settings: 'wght' 0,    'wdth' 0;    }
+        25%  { font-variation-settings: 'wght' 0,    'wdth' 1000; }
+        50%  { font-variation-settings: 'wght' 1000, 'wdth' 1000; }
+        75%  { font-variation-settings: 'wght' 1000, 'wdth' 0;    }
+        100% { font-variation-settings: 'wght' 0,    'wdth' 0;    }
+      }
+    </style>
+  </head>
+  <body>
+    <p id='sample0' contenteditable='true'>Five quacking zephyrs jolt my wax bed.</p>
+    <p id='sample1' contenteditable='true'>Jackdaws love my big sphinx of quartz. </p>
+    <p id='sample2' contenteditable='true'>frisch</p>
+    <input  id="wgthSlider" name="weight" type="range" value="500" step="1" min="0" max="1000">
+    <output id="wgthSliderValue" name="weightValue">500</output>
+    <input  id="wdthSlider" name="width"  type="range" value="327" step="1" min="0" max="1000">
+    <output id="wdthSliderValue" name="widthValue" >327</output>
+    <p id='sample3' contenteditable='true'>“How razorback jumping frogs can level six piqued gymnasts”</p>
+  </body>
+  <script>
+    var wgthSlider      = document.getElementById('wgthSlider'),
+        wgthSliderValue = document.getElementById('wgthSliderValue'),
+        wdthSlider      = document.getElementById('wdthSlider'),
+        wdthSliderValue = document.getElementById('wdthSliderValue'),
+        sampleText      = document.getElementById('sample3');
+    function updateSample(){
+        var wgthValue = wgthSlider.value,
+            wdthValue = wdthSlider.value;
+        wgthSliderValue.value = wgthSlider.value;
+        wdthSliderValue.value = wdthSlider.value;
+        sampleText.style.cssText = 'font-variation-settings: "wght" ' + wgthValue + ', "wdth" ' + wdthValue + ';'
+    };
+    wgthSlider.addEventListener('input', updateSample)
+    wdthSlider.addEventListener('input', updateSample)
+  </script>
+</html>
