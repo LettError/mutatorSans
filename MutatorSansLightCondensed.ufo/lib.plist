@@ -652,6 +652,8 @@
       <string>X</string>
       <string>Y</string>
       <string>Z</string>
+      <string>S.closed</string>
+      <string>I.narrow</string>
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
       <string>quotedblleft</string>
@@ -661,7 +663,6 @@
       <string>colon</string>
       <string>semicolon</string>
       <string>space</string>
-      <string>I.narrow</string>
     </array>
     <key>testLibItemKey</key>
     <array>

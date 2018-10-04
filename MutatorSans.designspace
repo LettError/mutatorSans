@@ -11,6 +11,13 @@
             </conditionset>
             <sub name="I" with="I.narrow" />
         </rule>
+        <rule name="fold_S_terminals">
+            <conditionset>
+                <condition maximum="1000" minimum="0" name="width" />
+                <condition maximum="820" minimum="0" name="weight" />
+            </conditionset>
+            <sub name="S" with="S.closed" />
+        </rule>
     </rules>
     <sources>
         <source familyname="MutatorMathTest" filename="MutatorSansLightCondensed.ufo" name="master.MutatorMathTest.LightCondensed.0" stylename="LightCondensed">
@@ -39,6 +46,18 @@
             <location>
                 <dimension name="width" xvalue="1000" />
                 <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+        <source filename="MutatorSansLightCondensed.ufo" layer="support.crossbar" name="support.crossbar">
+            <location>
+                <dimension name="width" xvalue="0" />
+                <dimension name="weight" xvalue="700" />
+            </location>
+        </source>
+        <source filename="MutatorSansLightCondensed.ufo" layer="support.S.wide" name="support.S.wide">
+            <location>
+                <dimension name="width" xvalue="1000" />
+                <dimension name="weight" xvalue="700" />
             </location>
         </source>
     </sources>
@@ -163,13 +182,32 @@
     <lib>
         <dict>
             <key>com.letterror.skateboard.interestingLocation</key>
-            <array />
+            <array>
+                <array>
+                    <dict>
+                        <key>weight</key>
+                        <real>775.609</real>
+                        <key>width</key>
+                        <real>794.522</real>
+                    </dict>
+                    <string>S1</string>
+                </array>
+                <array>
+                    <dict>
+                        <key>weight</key>
+                        <real>855.549</real>
+                        <key>width</key>
+                        <real>795.978</real>
+                    </dict>
+                    <string>S2</string>
+                </array>
+            </array>
             <key>com.letterror.skateboard.previewLocation</key>
             <dict>
                 <key>weight</key>
-                <real>1000.0</real>
+                <real>775.609</real>
                 <key>width</key>
-                <real>1000.0</real>
+                <real>794.522</real>
             </dict>
         </dict>
     </lib>

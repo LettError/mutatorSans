@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="N" format="2">
-  <advance width="1335"/>
+  <advance width="1305"/>
   <unicode hex="004E"/>
   <outline>
     <contour>
@@ -11,15 +11,15 @@
     </contour>
     <contour>
       <point x="264" y="454" type="line"/>
-      <point x="954" y="0" type="line"/>
-      <point x="1070" y="346" type="line"/>
+      <point x="924" y="0" type="line"/>
+      <point x="1040" y="346" type="line"/>
       <point x="380" y="800" type="line"/>
     </contour>
     <contour>
-      <point x="955" y="0" type="line"/>
-      <point x="1275" y="0" type="line"/>
-      <point x="1275" y="800" type="line"/>
-      <point x="955" y="800" type="line"/>
+      <point x="925" y="0" type="line"/>
+      <point x="1245" y="0" type="line"/>
+      <point x="1245" y="800" type="line"/>
+      <point x="925" y="800" type="line"/>
     </contour>
   </outline>
 </glyph>
