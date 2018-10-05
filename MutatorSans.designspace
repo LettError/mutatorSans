@@ -60,6 +60,12 @@
                 <dimension name="weight" xvalue="700" />
             </location>
         </source>
+        <source filename="MutatorSansLightCondensed.ufo" layer="support.S.middle" name="support.S.middle">
+            <location>
+                <dimension name="width" xvalue="569.078000" />
+                <dimension name="weight" xvalue="700" />
+            </location>
+        </source>
     </sources>
     <instances>
         <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-LightCondensed.ufo" name="instance_LightCondensed" postscriptfontname="MutatorMathTest-LightCondensed" stylename="LightCondensed">
@@ -205,9 +211,9 @@
             <key>com.letterror.skateboard.previewLocation</key>
             <dict>
                 <key>weight</key>
-                <real>775.609</real>
+                <real>700.0</real>
                 <key>width</key>
-                <real>794.522</real>
+                <real>569.078</real>
             </dict>
         </dict>
     </lib>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="R" format="2">
-  <advance width="1218"/>
+  <advance width="1277"/>
   <unicode hex="0052"/>
   <outline>
     <contour>
-      <point x="750" y="0" type="line"/>
-      <point x="1181" y="0" type="line"/>
-      <point x="1130" y="83" type="line" smooth="yes"/>
-      <point x="1087" y="153"/>
-      <point x="1033" y="210"/>
-      <point x="935" y="210" type="curve"/>
-      <point x="640" y="210" type="line"/>
+      <point x="800" y="0" type="line"/>
+      <point x="1231" y="0" type="line"/>
+      <point x="1180" y="83" type="line" smooth="yes"/>
+      <point x="1137" y="153"/>
+      <point x="1083" y="210"/>
+      <point x="985" y="210" type="curve"/>
+      <point x="690" y="210" type="line"/>
     </contour>
     <contour>
       <point x="60" y="0" type="line"/>
