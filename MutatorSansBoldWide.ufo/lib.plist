@@ -380,6 +380,10 @@
       <string>colon</string>
       <string>semicolon</string>
       <string>space</string>
+      <string>arrowleft</string>
+      <string>arrowup</string>
+      <string>arrowright</string>
+      <string>arrowdown</string>
     </array>
   </dict>
 </plist>

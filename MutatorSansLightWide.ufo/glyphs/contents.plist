@@ -58,6 +58,14 @@
     <string>Y_.glif</string>
     <key>Z</key>
     <string>Z_.glif</string>
+    <key>arrowdown</key>
+    <string>arrowdown.glif</string>
+    <key>arrowleft</key>
+    <string>arrowleft.glif</string>
+    <key>arrowright</key>
+    <string>arrowright.glif</string>
+    <key>arrowup</key>
+    <string>arrowup.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>comma</key>

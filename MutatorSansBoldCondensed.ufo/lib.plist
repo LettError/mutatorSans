@@ -243,6 +243,8 @@
       <string>X</string>
       <string>Y</string>
       <string>Z</string>
+      <string>S.closed</string>
+      <string>I.narrow</string>
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
       <string>quotedblleft</string>
@@ -252,8 +254,10 @@
       <string>colon</string>
       <string>semicolon</string>
       <string>space</string>
-      <string>I.narrow</string>
-      <string>S.closed</string>
+      <string>arrowdown</string>
+      <string>arrowleft</string>
+      <string>arrowright</string>
+      <string>arrowup</string>
     </array>
   </dict>
 </plist>
