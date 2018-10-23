@@ -19,7 +19,7 @@ widthMax = listFontVariations('MutatorMathTest')['wdth']['maxValue']
 
 
 steps = 50
-txt = 'FRISCH'
+txt = '→FRISCH'
 
 def ip(a, b, f):
     return a + f*(b-a)

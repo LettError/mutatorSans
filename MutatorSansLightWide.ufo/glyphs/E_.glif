@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="E" format="2">
-  <advance width="1100"/>
+  <advance width="1010"/>
   <unicode hex="0045"/>
   <anchor x="532" y="746" name="top"/>
   <outline>
@@ -12,14 +12,14 @@
     </contour>
     <contour>
       <point x="140" y="664" type="line"/>
-      <point x="980" y="664" type="line"/>
-      <point x="980" y="700" type="line"/>
+      <point x="940" y="664" type="line"/>
+      <point x="940" y="700" type="line"/>
       <point x="140" y="700" type="line"/>
     </contour>
     <contour>
       <point x="140" y="0" type="line"/>
-      <point x="980" y="0" type="line"/>
-      <point x="980" y="36" type="line"/>
+      <point x="940" y="0" type="line"/>
+      <point x="940" y="36" type="line"/>
       <point x="140" y="36" type="line"/>
     </contour>
     <contour>

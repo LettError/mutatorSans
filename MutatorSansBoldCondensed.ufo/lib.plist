@@ -245,6 +245,7 @@
       <string>Z</string>
       <string>S.closed</string>
       <string>I.narrow</string>
+      <string>J.narrow</string>
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
       <string>quotedblleft</string>
@@ -258,6 +259,7 @@
       <string>arrowleft</string>
       <string>arrowright</string>
       <string>arrowup</string>
+      <string>IJ</string>
     </array>
   </dict>
 </plist>

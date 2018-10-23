@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="F" format="2">
-  <advance width="1150"/>
+  <advance width="1100"/>
   <unicode hex="0046"/>
   <guideline x="1113" y="537" angle="0" identifier="tCW6w1QdWl"/>
   <outline>
@@ -12,14 +12,14 @@
     </contour>
     <contour>
       <point x="140" y="664" type="line"/>
-      <point x="1030" y="664" type="line"/>
-      <point x="1030" y="700" type="line"/>
+      <point x="980" y="664" type="line"/>
+      <point x="980" y="700" type="line"/>
       <point x="140" y="700" type="line"/>
     </contour>
     <contour>
       <point x="140" y="294" type="line"/>
-      <point x="1010" y="294" type="line"/>
-      <point x="1010" y="330" type="line"/>
+      <point x="960" y="294" type="line"/>
+      <point x="960" y="330" type="line"/>
       <point x="140" y="330" type="line"/>
     </contour>
   </outline>

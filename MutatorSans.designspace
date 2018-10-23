@@ -14,7 +14,7 @@
         <rule name="fold_S_terminals">
             <conditionset>
                 <condition maximum="1000" minimum="0" name="width" />
-                <condition maximum="820" minimum="0" name="weight" />
+                <condition maximum="500" minimum="0" name="weight" />
             </conditionset>
             <sub name="S" with="S.closed" />
         </rule>
@@ -211,9 +211,9 @@
             <key>com.letterror.skateboard.previewLocation</key>
             <dict>
                 <key>weight</key>
-                <real>746.9669117647059</real>
+                <real>733.3935053661619</real>
                 <key>width</key>
-                <real>458.1942471590909</real>
+                <real>1000.0</real>
             </dict>
         </dict>
     </lib>
