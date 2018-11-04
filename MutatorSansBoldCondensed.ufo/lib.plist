@@ -218,6 +218,8 @@
     <key>public.glyphOrder</key>
     <array>
       <string>A</string>
+      <string>Aacute</string>
+      <string>Adieresis</string>
       <string>B</string>
       <string>C</string>
       <string>D</string>
@@ -243,6 +245,7 @@
       <string>X</string>
       <string>Y</string>
       <string>Z</string>
+      <string>IJ</string>
       <string>S.closed</string>
       <string>I.narrow</string>
       <string>J.narrow</string>
@@ -254,12 +257,14 @@
       <string>period</string>
       <string>colon</string>
       <string>semicolon</string>
+      <string>dot</string>
+      <string>dieresis</string>
+      <string>acute</string>
       <string>space</string>
       <string>arrowdown</string>
       <string>arrowleft</string>
       <string>arrowright</string>
       <string>arrowup</string>
-      <string>IJ</string>
     </array>
   </dict>
 </plist>
