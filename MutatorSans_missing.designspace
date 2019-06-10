@@ -1,209 +1,235 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.0">
-    <axes>
-        <axis default="0" maximum="1000" minimum="0" name="width" tag="wdth" />
-        <axis default="0" maximum="1000" minimum="0" name="weight" tag="wght" />
-        <axis default="0" maximum="50" minimum="0" name="space" tag="SPCE" />
-    </axes>
-    <rules>
-        <rule name="fold_I_serifs">
-            <conditionset>
-                <condition maximum="328" name="width" />
-                <condition minimum="0" name="weight" />
-            </conditionset>
-            <sub name="I" with="I.narrow" />
-        </rule>
-    </rules>
-    <sources>
-        <source familyname="MutatorMathTest" filename="MutatorSansLightCondensed.ufo" name="master.MutatorMathTest.LightCondensed.0" stylename="LightCondensed">
-            <location>
-                <dimension name="width" xvalue="0" />
-                <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
-            </location>
-        </source>
-        <source familyname="MutatorMathTest" filename="MutatorSansBoldCondensed.ufo" name="master.MutatorMathTest.BoldCondensed.1" stylename="BoldCondensed">
-            <location>
-                <dimension name="width" xvalue="0" />
-                <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
-            </location>
-        </source>
-        <source familyname="MutatorMathTest" filename="MutatorSansLightWide.ufo" name="master.MutatorMathTest.LightWide.2" stylename="LightWide">
-            <location>
-                <dimension name="width" xvalue="1000" />
-                <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
-            </location>
-        </source>
-        <source familyname="MutatorMathTest" filename="MutatorSansBoldWide.ufo" name="master.MutatorMathTest.BoldWide.3" stylename="BoldWide">
-            <location>
-                <dimension name="width" xvalue="1000" />
-                <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
-            </location>
-        </source>
-        <source familyname="MutatorMathTest" filename="Missing.ufo" name="master.MutatorMathTest.BoldWide.3" stylename="BoldWide">
-            <location>
-                <dimension name="width" xvalue="800" />
-                <dimension name="weight" xvalue="800" />
-                <dimension name="space" xvalue="0" />
-            </location>
-        </source>
-        <source familyname="MutatorMathTest" filename="MutatorSansLightCondensed.ufo" layer="support" stylename="LightCondensed">
-            <location>
-                <dimension name="width" xvalue="500" />
-                <dimension name="weight" xvalue="500" />
-                <dimension name="space" xvalue="0" />
-            </location>
-        </source>
-    </sources>
-    <instances>
-        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-LightCondensed.ufo" name="instance_LightCondensed" postscriptfontname="MutatorMathTest-LightCondensed" stylename="LightCondensed">
-            <location>
-                <dimension name="width" xvalue="0" />
-                <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
-            </location>
-            <glyphs>
-                <glyph name="I">
-                    <location>
-                        <dimension name="width" xvalue="0" />
-                        <dimension name="weight" xvalue="0" />
-                        <dimension name="space" xvalue="0" />
-                    </location>
-                    <masters>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.LightCondensed.0">
-                            <location>
-                                <dimension name="width" xvalue="0" />
-                                <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.BoldCondensed.1">
-                            <location>
-                                <dimension name="width" xvalue="0" />
-                                <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.LightWide.2">
-                            <location>
-                                <dimension name="width" xvalue="1000" />
-                                <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.BoldWide.3">
-                            <location>
-                                <dimension name="width" xvalue="1000" />
-                                <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                    </masters>
-                </glyph>
-            </glyphs>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-BoldCondensed.ufo" name="instance_BoldCondensed" postscriptfontname="MutatorMathTest-BoldCondensed" stylename="BoldCondensed">
-            <location>
-                <dimension name="width" xvalue="0" />
-                <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
-            </location>
-            <glyphs>
-                <glyph name="I">
-                    <location>
-                        <dimension name="width" xvalue="0" />
-                        <dimension name="weight" xvalue="1000" />
-                        <dimension name="space" xvalue="0" />
-                    </location>
-                    <masters>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.LightCondensed.0">
-                            <location>
-                                <dimension name="width" xvalue="0" />
-                                <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.BoldCondensed.1">
-                            <location>
-                                <dimension name="width" xvalue="0" />
-                                <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.LightWide.2">
-                            <location>
-                                <dimension name="width" xvalue="1000" />
-                                <dimension name="weight" xvalue="0" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                        <master glyphname="I.narrow" source="master.MutatorMathTest.BoldWide.3">
-                            <location>
-                                <dimension name="width" xvalue="1000" />
-                                <dimension name="weight" xvalue="1000" />
-                                <dimension name="space" xvalue="0" />
-                            </location>
-                        </master>
-                    </masters>
-                </glyph>
-            </glyphs>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-LightWide.ufo" name="instance_LightWide" postscriptfontname="MutatorMathTest-LightWide" stylename="LightWide">
-            <location>
-                <dimension name="width" xvalue="1000" />
-                <dimension name="weight" xvalue="0" />
-                <dimension name="space" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-BoldWide.ufo" name="instance_BoldWide" postscriptfontname="MutatorMathTest-BoldWide" stylename="BoldWide">
-            <location>
-                <dimension name="width" xvalue="1000" />
-                <dimension name="weight" xvalue="1000" />
-                <dimension name="space" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="MutatorMathTest" filename="instances/MutatorMathTest-Something.ufo" name="instance_Something" postscriptfontname="MutatorMathTest-Something" stylename="Something">
-            <location>
-                <dimension name="width" xvalue="503" />
-                <dimension name="weight" xvalue="29" />
-                <dimension name="space" xvalue="0" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-    </instances>
-    <lib>
-        <dict>
-            <key>com.superpolator.data</key>
-            <dict>
-                <key>expandRules</key>
-                <false />
-                <key>horizontalPreviewAxis</key>
-                <string>width</string>
-                <key>includeLegacyRules</key>
-                <false />
-                <key>keepWorkFiles</key>
-                <true />
-                <key>outputFormatUFO</key>
-                <integer>3</integer>
-                <key>previewtext</key>
-                <string>HOPA</string>
-                <key>roundGeometry</key>
-                <false />
-                <key>verticalPreviewAxis</key>
-                <string>weight</string>
-            </dict>
-        </dict>
-    </lib>
+  <axes>
+    <axis tag="wdth" name="width" minimum="0" maximum="1000" default="0"/>
+    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
+    <axis tag="SPCE" name="space" minimum="0" maximum="50" default="0"/>
+  </axes>
+  <rules>
+    <rule name="fold_I_serifs">
+      <conditionset>
+        <condition name="width" maximum="328"/>
+        <condition name="weight" minimum="0"/>
+      </conditionset>
+      <sub name="I" with="I.narrow"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="MutatorSansLightCondensed.ufo" name="master.MutatorMathTest.LightCondensed.0" familyname="MutatorMathTest" stylename="LightCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansBoldCondensed.ufo" name="master.MutatorMathTest.BoldCondensed.1" familyname="MutatorMathTest" stylename="BoldCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansLightWide.ufo" name="master.MutatorMathTest.LightWide.2" familyname="MutatorMathTest" stylename="LightWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansBoldWide.ufo" name="master.MutatorMathTest.BoldWide.3" familyname="MutatorMathTest" stylename="BoldWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Missing.ufo" name="master.MutatorMathTest.BoldWide.3" familyname="MutatorMathTest" stylename="BoldWide">
+      <location>
+        <dimension name="width" xvalue="800"/>
+        <dimension name="weight" xvalue="800"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorMathTest" stylename="LightCondensed" layer="support">
+      <location>
+        <dimension name="width" xvalue="500"/>
+        <dimension name="weight" xvalue="500"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="instance_LightCondensed" familyname="MutatorMathTest" stylename="LightCondensed" filename="instances/MutatorMathTest-LightCondensed.ufo" postscriptfontname="MutatorMathTest-LightCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+      <glyphs>
+        <glyph name="I">
+          <location>
+            <dimension name="width" xvalue="0"/>
+            <dimension name="weight" xvalue="0"/>
+            <dimension name="space" xvalue="0"/>
+          </location>
+          <masters>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.LightCondensed.0">
+              <location>
+                <dimension name="width" xvalue="0"/>
+                <dimension name="weight" xvalue="0"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.BoldCondensed.1">
+              <location>
+                <dimension name="width" xvalue="0"/>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.LightWide.2">
+              <location>
+                <dimension name="width" xvalue="1000"/>
+                <dimension name="weight" xvalue="0"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.BoldWide.3">
+              <location>
+                <dimension name="width" xvalue="1000"/>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+      </glyphs>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_BoldCondensed" familyname="MutatorMathTest" stylename="BoldCondensed" filename="instances/MutatorMathTest-BoldCondensed.ufo" postscriptfontname="MutatorMathTest-BoldCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+      <glyphs>
+        <glyph name="I">
+          <location>
+            <dimension name="width" xvalue="0"/>
+            <dimension name="weight" xvalue="1000"/>
+            <dimension name="space" xvalue="0"/>
+          </location>
+          <masters>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.LightCondensed.0">
+              <location>
+                <dimension name="width" xvalue="0"/>
+                <dimension name="weight" xvalue="0"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.BoldCondensed.1">
+              <location>
+                <dimension name="width" xvalue="0"/>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.LightWide.2">
+              <location>
+                <dimension name="width" xvalue="1000"/>
+                <dimension name="weight" xvalue="0"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+            <master glyphname="I.narrow" source="master.MutatorMathTest.BoldWide.3">
+              <location>
+                <dimension name="width" xvalue="1000"/>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="space" xvalue="0"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+      </glyphs>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_LightWide" familyname="MutatorMathTest" stylename="LightWide" filename="instances/MutatorMathTest-LightWide.ufo" postscriptfontname="MutatorMathTest-LightWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_BoldWide" familyname="MutatorMathTest" stylename="BoldWide" filename="instances/MutatorMathTest-BoldWide.ufo" postscriptfontname="MutatorMathTest-BoldWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Something" familyname="MutatorMathTest" stylename="Something" filename="instances/MutatorMathTest-Something.ufo" postscriptfontname="MutatorMathTest-Something">
+      <location>
+        <dimension name="width" xvalue="503"/>
+        <dimension name="weight" xvalue="29"/>
+        <dimension name="space" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array>
+          <string>width</string>
+        </array>
+        <key>ignore</key>
+        <array>
+          <string>space</string>
+        </array>
+        <key>vertical</key>
+        <array>
+          <string>weight</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>space</key>
+        <real>0.0</real>
+        <key>weight</key>
+        <real>172.519</real>
+        <key>width</key>
+        <real>524.265</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>ATTACK SHIPS ON FIRE OFF THE SHOULDER OF ORION. I WATCHED C-BEAMS GLITTER IN THE DARK NEAR THE TANNHÄUSER GATE. ALL THOSE MOMENTS WILL BE LOST IN TIME, LIKE TEARS IN RAIN. TIME TO DIE.</string>
+      <key>com.superpolator.data</key>
+      <dict>
+        <key>expandRules</key>
+        <false/>
+        <key>horizontalPreviewAxis</key>
+        <string>width</string>
+        <key>includeLegacyRules</key>
+        <false/>
+        <key>keepWorkFiles</key>
+        <true/>
+        <key>outputFormatUFO</key>
+        <integer>3</integer>
+        <key>previewtext</key>
+        <string>HOPA</string>
+        <key>roundGeometry</key>
+        <false/>
+        <key>verticalPreviewAxis</key>
+        <string>weight</string>
+      </dict>
+    </dict>
+  </lib>
 </designspace>

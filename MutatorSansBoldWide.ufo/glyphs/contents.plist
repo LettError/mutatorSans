@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
@@ -84,6 +84,8 @@
     <string>dieresis.glif</string>
     <key>dot</key>
     <string>dot.glif</string>
+    <key>em</key>
+    <string>em.glif</string>
     <key>period</key>
     <string>period.glif</string>
     <key>quotedblbase</key>
