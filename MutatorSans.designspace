@@ -108,14 +108,6 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorMathTest" stylename="Medium_Wide_I" filename="instances/MutatorMathTest-Medium_Wide_I.ufo" postscriptfontname="MutatorMathTest-Medium_Wide_I">
-      <location>
-        <dimension name="width" xvalue="327"/>
-        <dimension name="weight" xvalue="500"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
     <instance familyname="MutatorMathTest" stylename="Two" filename="instances/MutatorMathTest-Two.ufo" postscriptfontname="MutatorMathTest-Two">
       <location>
         <dimension name="width" xvalue="569.078000"/>
@@ -140,14 +132,6 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorSans" stylename="width_898.81_weight_1194.94" filename="instances/MutatorSans_width_898.81_weight_1194.94.ufo">
-      <location>
-        <dimension name="width" xvalue="898.808751"/>
-        <dimension name="weight" xvalue="1194.939375"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
     <instance familyname="MutatorSans" stylename="width_93.05_weight_658.60" filename="instances/MutatorSans_width_93.05_weight_658.60.ufo">
       <location>
         <dimension name="width" xvalue="93.052000"/>
@@ -159,6 +143,8 @@
   </instances>
   <lib>
     <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewMutatorMath</string>
       <key>com.letterror.skateboard.interactionSources</key>
       <dict>
         <key>horizontal</key>
