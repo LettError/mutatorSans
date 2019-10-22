@@ -79,7 +79,7 @@
     <instance familyname="MutatorSans" stylename="BoldCondensed" filename="instances/MutatorMathTest-BoldCondensed.ufo" postscriptfontname="MutatorMathTest-BoldCondensed">
       <location>
         <dimension name="width" xvalue="0"/>
-        <dimension name="weight" xvalue="1010"/>
+        <dimension name="weight" xvalue="1000"/>
       </location>
       <kerning/>
       <info/>
