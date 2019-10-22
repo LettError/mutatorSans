@@ -68,7 +68,7 @@
     </source>
   </sources>
   <instances>
-    <instance familyname="MutatorMathTest" stylename="LightCondensed" filename="instances/MutatorMathTest-LightCondensed.ufo" postscriptfontname="MutatorMathTest-LightCondensed">
+    <instance familyname="MutatorSans" stylename="LightCondensed" filename="instances/MutatorMathTest-LightCondensed.ufo" postscriptfontname="MutatorMathTest-LightCondensed">
       <location>
         <dimension name="width" xvalue="0"/>
         <dimension name="weight" xvalue="0"/>
@@ -76,7 +76,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorMathTest" stylename="BoldCondensed" filename="instances/MutatorMathTest-BoldCondensed.ufo" postscriptfontname="MutatorMathTest-BoldCondensed">
+    <instance familyname="MutatorSans" stylename="BoldCondensed" filename="instances/MutatorMathTest-BoldCondensed.ufo" postscriptfontname="MutatorMathTest-BoldCondensed">
       <location>
         <dimension name="width" xvalue="0"/>
         <dimension name="weight" xvalue="1000"/>
@@ -84,7 +84,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorMathTest" stylename="LightWide" filename="instances/MutatorMathTest-LightWide.ufo" postscriptfontname="MutatorMathTest-LightWide">
+    <instance familyname="MutatorSans" stylename="LightWide" filename="instances/MutatorMathTest-LightWide.ufo" postscriptfontname="MutatorMathTest-LightWide">
       <location>
         <dimension name="width" xvalue="1000"/>
         <dimension name="weight" xvalue="0"/>
@@ -92,7 +92,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorMathTest" stylename="BoldWide" filename="instances/MutatorMathTest-BoldWide.ufo" postscriptfontname="MutatorMathTest-BoldWide">
+    <instance familyname="MutatorSans" stylename="BoldWide" filename="instances/MutatorMathTest-BoldWide.ufo" postscriptfontname="MutatorMathTest-BoldWide">
       <location>
         <dimension name="width" xvalue="1000"/>
         <dimension name="weight" xvalue="1000"/>
@@ -100,7 +100,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorMathTest" stylename="Medium_Narrow_I" filename="instances/MutatorMathTest-Medium_Narrow_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
+    <instance familyname="MutatorSans" stylename="Medium_Narrow_I" filename="instances/MutatorMathTest-Medium_Narrow_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
       <location>
         <dimension name="width" xvalue="327"/>
         <dimension name="weight" xvalue="500"/>
@@ -108,7 +108,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorMathTest" stylename="Two" filename="instances/MutatorMathTest-Two.ufo" postscriptfontname="MutatorMathTest-Two">
+    <instance familyname="MutatorSans" stylename="Two" filename="instances/MutatorMathTest-Two.ufo" postscriptfontname="MutatorMathTest-Two">
       <location>
         <dimension name="width" xvalue="569.078000"/>
         <dimension name="weight" xvalue="1000"/>
@@ -116,7 +116,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="MutatorMathTest" stylename="One" filename="instances/MutatorMathTest-One.ufo" postscriptfontname="MutatorMathTest-One">
+    <instance familyname="MutatorSans" stylename="One" filename="instances/MutatorMathTest-One.ufo" postscriptfontname="MutatorMathTest-One">
       <location>
         <dimension name="width" xvalue="1000"/>
         <dimension name="weight" xvalue="500"/>
@@ -140,11 +140,19 @@
       <kerning/>
       <info/>
     </instance>
+    <instance familyname="MutatorSans" stylename="Medium_Wide_I" filename="instances/MutatorMathTest-Medium_Narrow_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
+      <location>
+        <dimension name="width" xvalue="328"/>
+        <dimension name="weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
   </instances>
   <lib>
     <dict>
       <key>com.letterror.mathModelPref</key>
-      <string>previewMutatorMath</string>
+      <string>previewVarLib</string>
       <key>com.letterror.skateboard.interactionSources</key>
       <dict>
         <key>horizontal</key>
@@ -218,9 +226,9 @@
       <key>com.letterror.skateboard.previewLocation</key>
       <dict>
         <key>weight</key>
-        <real>539.8264694798036</real>
+        <real>0.0</real>
         <key>width</key>
-        <real>633.4249078771052</real>
+        <real>366.74512553418805</real>
       </dict>
       <key>com.letterror.skateboard.previewText</key>
       <string>NO IDEAS</string>
