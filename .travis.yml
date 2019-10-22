@@ -4,4 +4,4 @@ python:
 install:
     - pip install fontmake
 cache: pip
-script: fontmake -m MutatorSans.designspace -o variable
+script: ./build_all_fontmake.sh
