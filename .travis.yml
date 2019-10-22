@@ -1,0 +1,7 @@
+language: python
+python:
+    - "3.7"
+install:
+    - pip install fontmake
+cache: pip
+script: fontmake -m MutatorSans.designspace -o variable
