@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/LettError/mutatorSans.svg?branch=master)](https://travis-ci.com/LettError/mutatorSans)
+
 # MutatorSans
 ![](mutatormasters.png	)
 ![](mutatorSans.gif	)
