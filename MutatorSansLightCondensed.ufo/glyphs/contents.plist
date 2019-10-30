@@ -84,8 +84,6 @@
     <string>dieresis.glif</string>
     <key>dot</key>
     <string>dot.glif</string>
-    <key>em</key>
-    <string>em.glif</string>
     <key>period</key>
     <string>period.glif</string>
     <key>quotedblbase</key>
