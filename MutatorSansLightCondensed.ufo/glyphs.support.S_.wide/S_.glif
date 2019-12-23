@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="S" format="2">
   <advance width="1265"/>
   <outline>
     <contour>
       <point x="1219.8299899343037" y="252.6498416872039" type="curve" smooth="yes"/>
       <point x="1219.981600932759" y="461.10283052732257"/>
-      <point x="1096.5513403076734" y="518.7112598673356"/>
-      <point x="756.9954361456862" y="519.0050664076766" type="curve" smooth="yes"/>
-      <point x="559.144621231021" y="518.7874706917509" type="line" smooth="yes"/>
-      <point x="403.62446157355896" y="516.2297986720174"/>
+      <point x="1097" y="519"/>
+      <point x="757" y="519" type="curve" smooth="yes"/>
+      <point x="559" y="519" type="line" smooth="yes"/>
+      <point x="404" y="516"/>
       <point x="364.12739730756726" y="518.0252982261093"/>
       <point x="364.12739730756726" y="543.0683372401004" type="curve" smooth="yes"/>
       <point x="364.12739730756726" y="567.0105959664069"/>

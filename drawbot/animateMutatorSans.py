@@ -19,7 +19,7 @@ widthMax = listFontVariations('MutatorMathTest')['wdth']['maxValue']
 
 
 steps = 50
-txt = '→FRISCH'
+txt = '→'
 
 def ip(a, b, f):
     return a + f*(b-a)
@@ -44,3 +44,4 @@ for i in range(steps):
     text('MutatorSans weight: %3.3f, width: %3.3f' % (weightValue, widthValue), (10, 10))
 
 saveImage('mutatorSans.gif')
+saveImage('mutatorSans_frames.pdf')
