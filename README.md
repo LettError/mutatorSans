@@ -2,7 +2,7 @@
 
 # MutatorSans
 ![](mutatormasters.png	)
-![](drawbot/mutatorSans.mp4)
+![](mutatorSans.mp4)
 This project consists of [UFO](http://unifiedfontobject.org) source font data for a small 2 dimensional [designspace](https://github.com/LettError/designSpaceDocument).
 
 * Weight and width axes, some glyphs have intermediates.
