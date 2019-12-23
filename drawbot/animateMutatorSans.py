@@ -18,8 +18,8 @@ widthMin = listFontVariations('MutatorMathTest')['wdth']['minValue']
 widthMax = listFontVariations('MutatorMathTest')['wdth']['maxValue']
 
 
-steps = 50
-txt = '→FRISCH'
+steps = 200
+txt = '→FISHERIES'
 
 def ip(a, b, f):
     return a + f*(b-a)
@@ -29,6 +29,9 @@ for i in range(steps):
     a1 = .5+cos(angle)*.5
     a2 = .5+sin(angle)*.5
     newPage(1200, 250)
+    fill(1)
+    rect(0,0,width(),height())
+    fill(0)
     font("MutatorMathTest")
     fontSize(200)
     weightValue = ip(weightMin, weightMax, a1)
@@ -43,4 +46,5 @@ for i in range(steps):
 
     text('MutatorSans weight: %3.3f, width: %3.3f' % (weightValue, widthValue), (10, 10))
 
-saveImage('mutatorSans.gif')
+saveImage('mutatorSans.mp4')
+#saveImage('mutatorSans_frames.pdf')

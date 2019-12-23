@@ -10,5 +10,11 @@
     <array>
       <string>A</string>
     </array>
+    <key>testGroup</key>
+    <array>
+      <string>E</string>
+      <string>F</string>
+      <string>H</string>
+    </array>
   </dict>
 </plist>

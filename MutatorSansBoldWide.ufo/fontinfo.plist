@@ -21,7 +21,12 @@
     <key>openTypeOS2VendorID</key>
     <string>LTTR</string>
     <key>postscriptBlueValues</key>
-    <array/>
+    <array>
+      <integer>-10</integer>
+      <integer>0</integer>
+      <integer>800</integer>
+      <integer>810</integer>
+    </array>
     <key>postscriptDefaultWidthX</key>
     <integer>500</integer>
     <key>postscriptFamilyBlues</key>
@@ -33,7 +38,10 @@
     <key>postscriptFullName</key>
     <string>MutatorMathTest BoldWide</string>
     <key>postscriptOtherBlues</key>
-    <array/>
+    <array>
+      <integer>400</integer>
+      <integer>420</integer>
+    </array>
     <key>postscriptSlantAngle</key>
     <integer>0</integer>
     <key>postscriptStemSnapH</key>

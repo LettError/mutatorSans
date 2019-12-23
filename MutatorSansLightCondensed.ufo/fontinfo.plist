@@ -21,7 +21,12 @@
     <key>openTypeOS2VendorID</key>
     <string>LTTR</string>
     <key>postscriptBlueValues</key>
-    <array/>
+    <array>
+      <integer>-10</integer>
+      <integer>0</integer>
+      <integer>700</integer>
+      <integer>710</integer>
+    </array>
     <key>postscriptDefaultWidthX</key>
     <integer>500</integer>
     <key>postscriptFamilyBlues</key>

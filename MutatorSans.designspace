@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
+<designspace format="4.1">
   <axes>
     <axis tag="wdth" name="width" minimum="0" maximum="1000" default="0"/>
     <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
@@ -148,11 +148,27 @@
       <kerning/>
       <info/>
     </instance>
+    <instance familyname="MutatorSans" stylename="width_35.33_weight_854.83" filename="instances/MutatorSans_width_35.33_weight_854.83.ufo">
+      <location>
+        <dimension name="width" xvalue="35.329171"/>
+        <dimension name="weight" xvalue="854.834192"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="MutatorSans" stylename="width_794.52_weight_775.61" filename="instances/MutatorSans_width_794.52_weight_775.61.ufo">
+      <location>
+        <dimension name="width" xvalue="500"/>
+        <dimension name="weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
   </instances>
   <lib>
     <dict>
       <key>com.letterror.mathModelPref</key>
-      <string>previewVarLib</string>
+      <string>previewMutatorMath</string>
       <key>com.letterror.skateboard.interactionSources</key>
       <dict>
         <key>horizontal</key>
@@ -226,12 +242,12 @@
       <key>com.letterror.skateboard.previewLocation</key>
       <dict>
         <key>weight</key>
-        <real>0.0</real>
+        <real>177.33442834877678</real>
         <key>width</key>
-        <real>366.74512553418805</real>
+        <real>747.3306156281592</real>
       </dict>
       <key>com.letterror.skateboard.previewText</key>
-      <string>NO IDEAS</string>
+      <string>HE</string>
       <key>com.superpolator.data</key>
       <dict>
         <key>axiscolors</key>
