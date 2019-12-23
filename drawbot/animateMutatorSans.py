@@ -18,7 +18,7 @@ widthMin = listFontVariations('MutatorMathTest')['wdth']['minValue']
 widthMax = listFontVariations('MutatorMathTest')['wdth']['maxValue']
 
 
-steps = 200
+steps = 100
 txt = '→FISHERIES'
 
 def ip(a, b, f):
@@ -47,4 +47,5 @@ for i in range(steps):
     text('MutatorSans weight: %3.3f, width: %3.3f' % (weightValue, widthValue), (10, 10))
 
 saveImage('mutatorSans.mp4')
+saveImage('mutatorSans.gif')
 #saveImage('mutatorSans_frames.pdf')
