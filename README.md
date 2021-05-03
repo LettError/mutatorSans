@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/LettError/mutatorSans.svg?branch=master)](https://travis-ci.com/LettError/mutatorSans)
+[![Buid fonts](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml/badge.svg)](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml)
 
 # MutatorSans
 ![](mutatormasters.png	)
