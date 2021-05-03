@@ -1,4 +1,4 @@
-[![Buid fonts](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml/badge.svg)](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml)
+[![Build fonts](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml/badge.svg)](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml)
 
 # MutatorSans
 ![](mutatormasters.png	)
