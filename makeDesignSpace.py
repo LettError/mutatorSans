@@ -1,6 +1,6 @@
 import os
 
-from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor
+from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, RuleDescriptor
 
 root = os.getcwd()
 doc = DesignSpaceDocument()
@@ -85,8 +85,17 @@ doc.addInstance(i0)
 # rules
 #-------
 
-# TODO: add rules to match the contents of `MutatorSans.designspace`
-# http://github.com/LettError/mutatorSans/blob/master/MutatorSans.designspace
+rd = RuleDescriptor()
+rd.name = 'fold_I_serifs'
+rd.conditionSets = [[{'minimum': 0.0, 'maximum': 328.0, 'name': 'width'}]]
+rd.subs = [('I', 'I.narrow')]
+doc.addRule(rd)
+
+rd = RuleDescriptor()
+rd.name = 'fold_S_terminals'
+rd.conditionSets = [[{'minimum': 0.0, 'maximum': 1000.0, 'name': 'width'}, {'minimum': 0.0, 'maximum': 500.0, 'name': 'weight'}]]
+rd.subs = [('S', 'S.closed')]
+doc.addRule(rd)
 
 #--------
 # saving
