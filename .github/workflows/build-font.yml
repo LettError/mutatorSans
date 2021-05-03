@@ -30,3 +30,9 @@ jobs:
     - name: Build font
       run: |
         ./build_all_fontmake.sh
+
+    - name: Storing font artifacts
+      uses: actions/upload-artifact@master
+      with:
+        name: variable_ttf
+        path: variable_ttf
