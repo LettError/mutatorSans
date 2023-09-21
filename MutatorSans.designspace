@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.1">
+<designspace format="5.0">
   <axes>
     <axis tag="wdth" name="width" minimum="0" maximum="1000" default="0"/>
     <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
@@ -62,107 +62,92 @@
     </source>
     <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorMathTest" stylename="LightCondensed" layer="support.S.middle">
       <location>
-        <dimension name="width" xvalue="569.078000"/>
+        <dimension name="width" xvalue="569.078"/>
         <dimension name="weight" xvalue="700"/>
       </location>
     </source>
   </sources>
+  <variable-fonts>
+    <variable-font name="MutatorSansWeightVF" filename="path/to/my/fontVF.ttf">
+      <axis-subsets>
+        <axis-subset name="MutatorSansWeightVF"/>
+        <axis-subset name="weight"/>
+        <axis-subset name="weight" uservalue="400"/>
+      </axis-subsets>
+    </variable-font>
+  </variable-fonts>
   <instances>
     <instance familyname="MutatorSans" stylename="LightCondensed" filename="instances/MutatorMathTest-LightCondensed.ufo" postscriptfontname="MutatorMathTest-LightCondensed">
       <location>
         <dimension name="width" xvalue="0"/>
         <dimension name="weight" xvalue="0"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="BoldCondensed" filename="instances/MutatorMathTest-BoldCondensed.ufo" postscriptfontname="MutatorMathTest-BoldCondensed">
       <location>
         <dimension name="width" xvalue="0"/>
         <dimension name="weight" xvalue="1000"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="LightWide" filename="instances/MutatorMathTest-LightWide.ufo" postscriptfontname="MutatorMathTest-LightWide">
       <location>
         <dimension name="width" xvalue="1000"/>
         <dimension name="weight" xvalue="0"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="BoldWide" filename="instances/MutatorMathTest-BoldWide.ufo" postscriptfontname="MutatorMathTest-BoldWide">
       <location>
         <dimension name="width" xvalue="1000"/>
         <dimension name="weight" xvalue="1000"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="Medium_Narrow_I" filename="instances/MutatorMathTest-Medium_Narrow_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
       <location>
         <dimension name="width" xvalue="327"/>
         <dimension name="weight" xvalue="500"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="Two" filename="instances/MutatorMathTest-Two.ufo" postscriptfontname="MutatorMathTest-Two">
       <location>
-        <dimension name="width" xvalue="569.078000"/>
+        <dimension name="width" xvalue="569.078"/>
         <dimension name="weight" xvalue="1000"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="One" filename="instances/MutatorMathTest-One.ufo" postscriptfontname="MutatorMathTest-One">
       <location>
         <dimension name="width" xvalue="1000"/>
         <dimension name="weight" xvalue="500"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="width_794.52_weight_775.61" filename="instances/MutatorSans-width_794.52_weight_775.61.ufo" postscriptfontname="MutatorSans-width_794.52_weight_775.61">
       <location>
-        <dimension name="width" xvalue="794.522000"/>
-        <dimension name="weight" xvalue="775.609000"/>
+        <dimension name="width" xvalue="794.522"/>
+        <dimension name="weight" xvalue="775.609"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="width_93.05_weight_658.60" filename="instances/MutatorSans_width_93.05_weight_658.60.ufo">
       <location>
-        <dimension name="width" xvalue="93.052000"/>
-        <dimension name="weight" xvalue="658.597000"/>
+        <dimension name="width" xvalue="93.052"/>
+        <dimension name="weight" xvalue="658.597"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="Medium_Wide_I" filename="instances/MutatorMathTest-Medium_Narrow_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
       <location>
         <dimension name="width" xvalue="328"/>
         <dimension name="weight" xvalue="500"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="width_35.33_weight_854.83" filename="instances/MutatorSans_width_35.33_weight_854.83.ufo">
       <location>
         <dimension name="width" xvalue="35.329171"/>
         <dimension name="weight" xvalue="854.834192"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
     <instance familyname="MutatorSans" stylename="width_794.52_weight_775.61" filename="instances/MutatorSans_width_794.52_weight_775.61.ufo">
       <location>
         <dimension name="width" xvalue="500"/>
         <dimension name="weight" xvalue="500"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
   </instances>
   <lib>
