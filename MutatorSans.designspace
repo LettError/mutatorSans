@@ -68,11 +68,18 @@
     </source>
   </sources>
   <variable-fonts>
-    <variable-font name="MutatorSansWeightVF" filename="path/to/my/fontVF.ttf">
+    <variable-font name="MutatorSansWeightVF" filename="MutatorSansWeightVF.ttf">
       <axis-subsets>
         <axis-subset name="MutatorSansWeightVF"/>
         <axis-subset name="weight"/>
         <axis-subset name="weight" uservalue="400"/>
+      </axis-subsets>
+    </variable-font>
+    <variable-font name="MutatorSansWidthVF" filename="MutatorSansWidthVF.ttf">
+      <axis-subsets>
+        <axis-subset name="MutatorSansWidthVF"/>
+        <axis-subset name="width" uservalue="400"/>
+        <axis-subset name="weight"/>
       </axis-subsets>
     </variable-font>
   </variable-fonts>
