@@ -124,16 +124,16 @@
         <dimension name="weight" xvalue="500"/>
       </location>
     </instance>
-    <instance familyname="MutatorSans" stylename="width_794.52_weight_775.61" filename="instances/MutatorSans-width_794.52_weight_775.61.ufo" postscriptfontname="MutatorSans-width_794.52_weight_775.61">
+    <instance familyname="MutatorSans" stylename="UserLocation_700" filename="instances/MutatorSans-width_794.52_weight_775.61.ufo" postscriptfontname="MutatorSans-UserLocation_700">
       <location>
-        <dimension name="width" xvalue="794.522"/>
-        <dimension name="weight" xvalue="775.609"/>
+        <dimension name="width" uservalue="700"/>
+        <dimension name="weight" uservalue="775.609"/>
       </location>
     </instance>
-    <instance familyname="MutatorSans" stylename="width_93.05_weight_658.60" filename="instances/MutatorSans_width_93.05_weight_658.60.ufo">
+    <instance familyname="MutatorSans" stylename="UserLocation_100" filename="instances/MutatorSans_UserLocation_100.ufo">
       <location>
-        <dimension name="width" xvalue="93.052"/>
-        <dimension name="weight" xvalue="658.597"/>
+        <dimension name="width" uservalue="100"/>
+        <dimension name="weight" uservalue="658.597"/>
       </location>
     </instance>
     <instance familyname="MutatorSans" stylename="Medium_Wide_I" filename="instances/MutatorMathTest-Medium_Narrow_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
