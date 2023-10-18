@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="wdth" name="width" minimum="0" maximum="1000" default="0"/>
+    <axis tag="wdth" name="width" values="0 1000" default="0"/>
     <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
   </axes>
   <rules>
@@ -60,30 +60,18 @@
         <dimension name="weight" xvalue="700"/>
       </location>
     </source>
-    <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorMathTest" stylename="LightCondensed" layer="support.S.middle">
-      <location>
-        <dimension name="width" xvalue="569.078"/>
-        <dimension name="weight" xvalue="700"/>
-      </location>
-    </source>
   </sources>
   <variable-fonts>
-    <variable-font name="MutatorSans_All_Variable" filename="MutatorSans_All_Variable.ttf">
-      <axis-subsets>
-        <axis-subset name="weight"/>
-        <axis-subset name="width"/>
-      </axis-subsets>
-    </variable-font>
-    <variable-font name="MutatorSans_Weight_Variable_Width_0" filename="MutatorSans_Weight_Variable_Width_400.ttf">
+    <variable-font name="MutatorSans_Discrete_Axes_Narrow" filename="MutatorSans_Discrete_Axes_Narrow.ttf">
       <axis-subsets>
         <axis-subset name="weight"/>
         <axis-subset name="width" uservalue="0"/>
       </axis-subsets>
     </variable-font>
-    <variable-font name="MutatorSans_Width_Variable_Weight_1000" filename="MutatorSans_Width_Variable_Weight_1000.ttf">
+    <variable-font name="MutatorSans_Discrete_Axes_Wide" filename="MutatorSans_Discrete_Axes_Wide.ttf">
       <axis-subsets>
-        <axis-subset name="weight" uservalue="1000"/>
-        <axis-subset name="width"/>
+        <axis-subset name="weight"/>
+        <axis-subset name="width" uservalue="1000"/>
       </axis-subsets>
     </variable-font>
   </variable-fonts>
@@ -290,7 +278,7 @@
         <array/>
       </dict>
       <key>designspaceEdit.notes</key>
-      <string></string>
+      <string>This designspace has discrete values for the width axis. It has 2 variable fonts defined.</string>
     </dict>
   </lib>
 </designspace>

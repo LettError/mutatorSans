@@ -7,50 +7,8 @@
       <dict>
         <key>allowPseudoUnicode</key>
         <true/>
-        <key>ascending</key>
-        <true/>
         <key>type</key>
-        <string>alphabetical</string>
-      </dict>
-      <dict>
-        <key>allowPseudoUnicode</key>
-        <true/>
-        <key>ascending</key>
-        <true/>
-        <key>type</key>
-        <string>category</string>
-      </dict>
-      <dict>
-        <key>allowPseudoUnicode</key>
-        <true/>
-        <key>ascending</key>
-        <true/>
-        <key>type</key>
-        <string>unicode</string>
-      </dict>
-      <dict>
-        <key>allowPseudoUnicode</key>
-        <true/>
-        <key>ascending</key>
-        <true/>
-        <key>type</key>
-        <string>script</string>
-      </dict>
-      <dict>
-        <key>allowPseudoUnicode</key>
-        <true/>
-        <key>ascending</key>
-        <true/>
-        <key>type</key>
-        <string>suffix</string>
-      </dict>
-      <dict>
-        <key>allowPseudoUnicode</key>
-        <true/>
-        <key>ascending</key>
-        <true/>
-        <key>type</key>
-        <string>decompositionBase</string>
+        <string>cannedDesign</string>
       </dict>
     </array>
     <key>com.letterror.lightMeter.prefs</key>
@@ -343,6 +301,7 @@
     </array>
     <key>public.glyphOrder</key>
     <array>
+      <string>space</string>
       <string>A</string>
       <string>Aacute</string>
       <string>Adieresis</string>
@@ -371,26 +330,26 @@
       <string>X</string>
       <string>Y</string>
       <string>Z</string>
-      <string>S.closed</string>
-      <string>I.narrow</string>
-      <string>J.narrow</string>
-      <string>quotesinglbase</string>
-      <string>quotedblbase</string>
       <string>quotedblleft</string>
       <string>quotedblright</string>
-      <string>comma</string>
+      <string>quotesinglbase</string>
+      <string>quotedblbase</string>
       <string>period</string>
+      <string>comma</string>
       <string>colon</string>
       <string>semicolon</string>
       <string>dot</string>
-      <string>dieresis</string>
       <string>acute</string>
-      <string>space</string>
+      <string>dieresis</string>
       <string>IJ</string>
       <string>arrowdown</string>
       <string>arrowleft</string>
       <string>arrowright</string>
       <string>arrowup</string>
+      <string>I.narrow</string>
+      <string>J.narrow</string>
+      <string>S.closed</string>
+      <string>.notdef</string>
     </array>
   </dict>
 </plist>
