@@ -100,60 +100,6 @@
         <dimension name="weight" xvalue="1000"/>
       </location>
     </instance>
-    <instance familyname="MutatorSans" stylename="Medium_Narrow_I" filename="instances/MutatorSans-Medium_Narrow_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
-      <location>
-        <dimension name="width" xvalue="327"/>
-        <dimension name="weight" xvalue="500"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="Two" filename="instances/MutatorSans-Two.ufo" postscriptfontname="MutatorMathTest-Two">
-      <location>
-        <dimension name="width" xvalue="569.078"/>
-        <dimension name="weight" xvalue="1000"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="One" filename="instances/MutatorSans-One.ufo" postscriptfontname="MutatorMathTest-One">
-      <location>
-        <dimension name="width" xvalue="1000"/>
-        <dimension name="weight" xvalue="500"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="UserLocation_700" filename="instances/MutatorSans-UserLocation_700.ufo" postscriptfontname="MutatorSans-UserLocation_700">
-      <location>
-        <dimension name="width" uservalue="700"/>
-        <dimension name="weight" uservalue="775.609"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="UserLocation_100" filename="instances/MutatorSans-UserLocation_100.ufo">
-      <location>
-        <dimension name="width" uservalue="100"/>
-        <dimension name="weight" uservalue="658.597"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="Medium_Wide_I" filename="instances/MutatorSans-Medium_Wide_I.ufo" postscriptfontname="MutatorMathTest-Medium_Narrow_I">
-      <location>
-        <dimension name="width" xvalue="328"/>
-        <dimension name="weight" xvalue="500"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="Anisotropic_one" filename="instances/MutatorSans-Anisotropic_one.ufo">
-      <location>
-        <dimension name="width" uservalue="500"/>
-        <dimension name="weight" uservalue="200"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="Extrapolate" filename="instances/MutatorSans-Extrapolate.ufo">
-      <location>
-        <dimension name="width" xvalue="2000"/>
-        <dimension name="weight" xvalue="2000"/>
-      </location>
-    </instance>
-    <instance familyname="MutatorSans" stylename="Anisotropic_Extrapolate" filename="instances/MutatorSans-Anisotropic_Extrapolate.ufo">
-      <location>
-        <dimension name="width" xvalue="2000"/>
-        <dimension name="weight" xvalue="200" yvalue="1300"/>
-      </location>
-    </instance>
   </instances>
   <lib>
     <dict>
