@@ -1,8 +1,6 @@
-[![Build fonts](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml/badge.svg)](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml)
-
 # MutatorSans
-![](mutatormasters.png)
-![](mutatorSans.gif)
+![The 4 contributing UFO sources](mutatormasters.png)
+![An animated interpolation of the word "FISHERIES"](mutatorSans.gif)
 This project consists of [UFO](http://unifiedfontobject.org) source font data for a small 2 dimensional [designspace](https://github.com/LettError/designSpaceDocument).
 
 * Weight and width axes, some glyphs have intermediates.
