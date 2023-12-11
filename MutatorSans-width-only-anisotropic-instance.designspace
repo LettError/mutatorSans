@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wdth" name="width" minimum="0" maximum="1000" default="0"/>
+  </axes>
+  <sources>
+    <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorMathTest" stylename="LightCondensed">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansLightWide.ufo" familyname="MutatorMathTest" stylename="LightWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="MutatorMathTest" stylename="Anisotropic" filename="instances/MutatorMathTest-Anisotropic.ufo">
+      <location>
+        <dimension name="width" xvalue="400" yvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="MutatorMathTest" stylename="400" filename="instances/MutatorMathTest-400.ufo">
+      <location>
+        <dimension name="width" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="MutatorMathTest" stylename="700" filename="instances/MutatorMathTest-700.ufo">
+      <location>
+        <dimension name="width" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>width</key>
+        <real>0.0</real>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

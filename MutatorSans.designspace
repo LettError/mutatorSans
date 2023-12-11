@@ -166,18 +166,24 @@
         <dimension name="weight" xvalue="200" yvalue="1300"/>
       </location>
     </instance>
+    <instance familyname="MutatorSans" stylename="Support_Layer_Demo" filename="instances/MutatorSans-Style_13.ufo">
+      <location>
+        <dimension name="width" xvalue="569.078003"/>
+        <dimension name="weight" xvalue="700"/>
+      </location>
+    </instance>
   </instances>
   <lib>
     <dict>
       <key>com.letterror.designspaceEditor.previewLocation</key>
       <dict>
         <key>weight</key>
-        <real>191.7317657470703</real>
+        <real>1000.0</real>
         <key>width</key>
-        <real>716.8836669921875</real>
+        <real>1000.0</real>
       </dict>
       <key>com.letterror.designspaceEditor.previewText</key>
-      <string>EXCELLENT</string>
+      <string>SPARSE</string>
       <key>com.letterror.mathModelPref</key>
       <string>previewMutatorMath</string>
       <key>com.letterror.skateboard.interactionSources</key>

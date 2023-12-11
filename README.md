@@ -1,7 +1,7 @@
 [![Build fonts](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml/badge.svg)](https://github.com/LettError/mutatorSans/actions/workflows/build-font.yml)
 
 # MutatorSans
-![](mutatormasters.png	)
+![](mutatormasters.png)
 ![](mutatorSans.gif)
 This project consists of [UFO](http://unifiedfontobject.org) source font data for a small 2 dimensional [designspace](https://github.com/LettError/designSpaceDocument).
 
