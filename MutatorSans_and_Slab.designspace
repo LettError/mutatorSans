@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wdth" name="width" minimum="0" maximum="1000" default="0"/>
+    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
+    <axis tag="SLAB" name="slab" values="0 1" default="0"/>
+  </axes>
+  <rules>
+    <rule name="fold_I_serifs">
+      <conditionset>
+        <condition name="width" minimum="0" maximum="328"/>
+      </conditionset>
+      <sub name="I" with="I.narrow"/>
+    </rule>
+    <rule name="fold_S_terminals">
+      <conditionset>
+        <condition name="width" minimum="0" maximum="1000"/>
+        <condition name="weight" minimum="0" maximum="500"/>
+      </conditionset>
+      <sub name="S" with="S.closed"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorSans" stylename="LightCondensed">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansBoldCondensed.ufo" familyname="MutatorSans" stylename="BoldCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansLightWide.ufo" familyname="MutatorSans" stylename="LightWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansBoldWide.ufo" familyname="MutatorSans" stylename="BoldWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorSans" stylename="LightCondensed" layer="support.crossbar">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorSans" stylename="LightCondensed" layer="support.S.wide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="MutatorSlabLightCondensed.ufo" familyname="MutatorSlab" stylename="LightCondensed">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="MutatorSlabBoldCondensed.ufo" familyname="MutatorSlab" stylename="BoldCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slab" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="MutatorSlabLightWide.ufo" familyname="MutatorSlab" stylename="LightWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="MutatorSlabBoldWide.ufo" familyname="MutatorSlab" stylename="BoldWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slab" xvalue="1"/>
+      </location>
+    </source>
+  </sources>
+  <variable-fonts>
+    <variable-font name="MutatorSans_All_Variable" filename="MutatorSans_All_Variable.ttf">
+      <axis-subsets>
+        <axis-subset name="weight"/>
+        <axis-subset name="width"/>
+      </axis-subsets>
+    </variable-font>
+    <variable-font name="MutatorSans_Weight_Variable_Width_0" filename="MutatorSans_Weight_Variable_Width_400.ttf">
+      <axis-subsets>
+        <axis-subset name="weight"/>
+        <axis-subset name="width" uservalue="0"/>
+      </axis-subsets>
+    </variable-font>
+    <variable-font name="MutatorSans_Width_Variable_Weight_1000" filename="MutatorSans_Width_Variable_Weight_1000.ttf">
+      <axis-subsets>
+        <axis-subset name="weight" uservalue="1000"/>
+        <axis-subset name="width"/>
+      </axis-subsets>
+    </variable-font>
+  </variable-fonts>
+  <instances>
+    <instance familyname="MutatorSans" stylename="LightCondensed" filename="instances/MutatorSans-LightCondensed.ufo" postscriptfontname="MutatorSans-LightCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="BoldCondensed" filename="instances/MutatorSans-BoldCondensed.ufo" postscriptfontname="MutatorSans-BoldCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="LightWide" filename="instances/MutatorSans-LightWide.ufo" postscriptfontname="MutatorSans-LightWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="BoldWide" filename="instances/MutatorSans-BoldWide.ufo" postscriptfontname="MutatorSans-BoldWide">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="Medium_Narrow_I" filename="instances/MutatorSans-Medium_Narrow_I.ufo" postscriptfontname="MutatorSans-Medium_Narrow_I">
+      <location>
+        <dimension name="width" xvalue="327"/>
+        <dimension name="weight" xvalue="500"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="Two" filename="instances/MutatorSans-Two.ufo" postscriptfontname="MutatorSans-Two">
+      <location>
+        <dimension name="width" xvalue="569.078"/>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="One" filename="instances/MutatorSans-One.ufo" postscriptfontname="MutatorSans-One">
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="500"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="UserLocation_700" filename="instances/MutatorSans-UserLocation_700.ufo" postscriptfontname="MutatorSans-UserLocation_700">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="UserLocation_100" filename="instances/MutatorSans-UserLocation_100.ufo" postscriptfontname="MutatorSans-UserLocation_100">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="Medium_Wide_I" filename="instances/MutatorSans-Medium_Wide_I.ufo" postscriptfontname="MutatorSans-Medium_Wide_I">
+      <location>
+        <dimension name="width" xvalue="328"/>
+        <dimension name="weight" xvalue="500"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="Anisotropic_one" filename="instances/MutatorSans-Anisotropic_one.ufo" postscriptfontname="MutatorSans-Anisotropic_one">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="Extrapolate" filename="instances/MutatorSans-Extrapolate.ufo" postscriptfontname="MutatorSans-Extrapolate">
+      <location>
+        <dimension name="width" xvalue="2000"/>
+        <dimension name="weight" xvalue="2000"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="Anisotropic_Extrapolate" filename="instances/MutatorSans-Anisotropic_Extrapolate.ufo" postscriptfontname="MutatorSans-Anisotropic_Extrapolate">
+      <location>
+        <dimension name="width" xvalue="2000"/>
+        <dimension name="weight" xvalue="200" yvalue="1300"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSans" stylename="Support_Layer_Demo" filename="instances/MutatorSans-Support_Layer_Demo.ufo" postscriptfontname="MutatorSans-Support_Layer_Demo">
+      <location>
+        <dimension name="width" xvalue="569.078003"/>
+        <dimension name="weight" xvalue="700"/>
+        <dimension name="slab" xvalue="0"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.designspaceEditor.previewLocation</key>
+      <dict>
+        <key>slab</key>
+        <real>0.0</real>
+        <key>weight</key>
+        <real>1000.0</real>
+        <key>width</key>
+        <real>1000.0</real>
+      </dict>
+      <key>com.letterror.designspaceEditor.previewText</key>
+      <string>HACKATHON</string>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewMutatorMath</string>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array>
+          <string>width</string>
+        </array>
+        <key>ignore</key>
+        <array/>
+        <key>vertical</key>
+        <array>
+          <string>weight</string>
+        </array>
+      </dict>
+      <key>designspaceEdit.notes</key>
+      <string></string>
+    </dict>
+  </lib>
+</designspace>
