@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T" format="2">
   <advance width="1260"/>
   <unicode hex="0054"/>
@@ -6,14 +6,24 @@
     <contour>
       <point x="420" y="0" type="line"/>
       <point x="840" y="0" type="line"/>
-      <point x="840" y="800" type="line"/>
-      <point x="420" y="800" type="line"/>
+      <point x="840" y="780" type="line"/>
+      <point x="420" y="780" type="line"/>
     </contour>
     <contour>
-      <point x="20" y="490" type="line"/>
-      <point x="1240" y="490" type="line"/>
-      <point x="1240" y="800" type="line"/>
-      <point x="20" y="800" type="line"/>
+      <point x="250" y="0" type="line"/>
+      <point x="1010" y="0" type="line"/>
+      <point x="1010" y="270" type="line"/>
+      <point x="250" y="270" type="line"/>
+    </contour>
+    <contour>
+      <point x="33" y="310" type="line"/>
+      <point x="358" y="310" type="line"/>
+      <point x="358" y="520" type="line"/>
+      <point x="903" y="520" type="line"/>
+      <point x="903" y="310" type="line"/>
+      <point x="1228" y="310" type="line"/>
+      <point x="1228" y="800" type="line"/>
+      <point x="33" y="800" type="line"/>
     </contour>
   </outline>
 </glyph>

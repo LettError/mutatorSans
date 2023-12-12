@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="F" format="2">
   <advance width="551"/>
-  <unicode hex="0046"/>
+  <anchor x="282.15144" y="813.99416" name="top"/>
   <outline>
     <contour>
-      <point x="46" y="0.0" type="line"/>
-      <point x="265" y="0.0" type="line"/>
-      <point x="265" y="772" type="line"/>
-      <point x="46" y="772" type="line"/>
+      <point x="45.68544" y="0.0" type="line"/>
+      <point x="264.61744" y="0.0" type="line"/>
+      <point x="264.61744" y="771.5728" type="line"/>
+      <point x="45.68544" y="771.5728" type="line"/>
     </contour>
     <contour>
-      <point x="116" y="568" type="line"/>
-      <point x="505" y="568" type="line"/>
-      <point x="505" y="772" type="line"/>
-      <point x="116" y="772" type="line"/>
+      <point x="115.78639999999999" y="568.092448" type="line"/>
+      <point x="504.61744" y="568.092448" type="line"/>
+      <point x="504.61744" y="771.5728" type="line"/>
+      <point x="115.78639999999999" y="771.5728" type="line"/>
+    </contour>
+    <contour>
+      <point x="115.78639999999999" y="0.0" type="line"/>
+      <point x="504.61744" y="0.0" type="line"/>
+      <point x="504.61744" y="203.48035199999998" type="line"/>
+      <point x="115.78639999999999" y="203.48035199999998" type="line"/>
     </contour>
     <contour>
       <point x="116" y="297" type="line"/>
@@ -22,4 +28,18 @@
       <point x="116" y="479" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.letterror.skateboard.navigator</key>
+      <dict>
+        <key>location</key>
+        <dict>
+          <key>weight</key>
+          <real>715.728</real>
+          <key>width</key>
+          <real>-138.956</real>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

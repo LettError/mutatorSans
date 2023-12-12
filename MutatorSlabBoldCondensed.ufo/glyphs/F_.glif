@@ -1,39 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="F" format="2">
-  <advance width="560"/>
+  <advance width="730"/>
   <unicode hex="0046"/>
-  <guideline x="405" y="515" angle="90.0" color="0.386,0.3097,0.614,0.6525" identifier="MLsfuNUxrW"/>
+  <guideline x="433" y="280" angle="90.0" color="0.386,0.3097,0.614,0.6525" identifier="v8XzdwU02j"/>
+  <anchor x="347" y="841" name="top"/>
   <outline>
     <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="431" y="0" type="line"/>
-      <point x="431" y="270" type="line"/>
-      <point x="0" y="270" type="line"/>
+      <point x="105" y="100" type="line" smooth="yes"/>
+      <point x="395" y="100" type="line"/>
+      <point x="395" y="700" type="line"/>
+      <point x="105" y="700" type="line" smooth="yes"/>
     </contour>
     <contour>
-      <point x="70" y="100" type="line" smooth="yes"/>
-      <point x="360" y="100" type="line"/>
-      <point x="360" y="700" type="line"/>
-      <point x="70" y="700" type="line" smooth="yes"/>
+      <point x="183" y="339" type="line"/>
+      <point x="433" y="339" type="line"/>
+      <point x="433" y="295" type="line"/>
+      <point x="554" y="295" type="line"/>
+      <point x="554" y="454" type="line"/>
+      <point x="433" y="454" type="line"/>
+      <point x="433" y="409" type="line"/>
+      <point x="183" y="409" type="line"/>
     </contour>
     <contour>
-      <point x="0" y="530" type="line"/>
-      <point x="429" y="530" type="line"/>
-      <point x="405" y="550" type="line"/>
-      <point x="405" y="480" type="line"/>
-      <point x="570" y="480" type="line"/>
-      <point x="570" y="800" type="line"/>
-      <point x="0" y="800" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="485" y="250" type="line"/>
+      <point x="15" y="250" type="line"/>
     </contour>
     <contour>
-      <point x="221" y="321" type="line"/>
-      <point x="405" y="321" type="line"/>
-      <point x="405" y="295" type="line"/>
-      <point x="516" y="295" type="line"/>
-      <point x="516" y="468" type="line"/>
-      <point x="405" y="468" type="line"/>
-      <point x="405" y="442" type="line"/>
-      <point x="221" y="442" type="line"/>
+      <point x="15" y="550" type="line"/>
+      <point x="453" y="550" type="line"/>
+      <point x="453" y="480" type="line"/>
+      <point x="715" y="480" type="line"/>
+      <point x="715" y="800" type="line"/>
+      <point x="15" y="800" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
 </glyph>

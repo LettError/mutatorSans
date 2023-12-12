@@ -5,21 +5,6 @@
     <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
     <axis tag="SLAB" name="slab" values="0 1" default="0"/>
   </axes>
-  <rules>
-    <rule name="fold_I_serifs">
-      <conditionset>
-        <condition name="width" minimum="0" maximum="328"/>
-      </conditionset>
-      <sub name="I" with="I.narrow"/>
-    </rule>
-    <rule name="fold_S_terminals">
-      <conditionset>
-        <condition name="width" minimum="0" maximum="1000"/>
-        <condition name="weight" minimum="0" maximum="500"/>
-      </conditionset>
-      <sub name="S" with="S.closed"/>
-    </rule>
-  </rules>
   <sources>
     <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorSans" stylename="LightCondensed">
       <lib copy="1"/>
@@ -100,26 +85,6 @@
       </location>
     </source>
   </sources>
-  <variable-fonts>
-    <variable-font name="MutatorSans_All_Variable" filename="MutatorSans_All_Variable.ttf">
-      <axis-subsets>
-        <axis-subset name="weight"/>
-        <axis-subset name="width"/>
-      </axis-subsets>
-    </variable-font>
-    <variable-font name="MutatorSans_Weight_Variable_Width_0" filename="MutatorSans_Weight_Variable_Width_400.ttf">
-      <axis-subsets>
-        <axis-subset name="weight"/>
-        <axis-subset name="width" uservalue="0"/>
-      </axis-subsets>
-    </variable-font>
-    <variable-font name="MutatorSans_Width_Variable_Weight_1000" filename="MutatorSans_Width_Variable_Weight_1000.ttf">
-      <axis-subsets>
-        <axis-subset name="weight" uservalue="1000"/>
-        <axis-subset name="width"/>
-      </axis-subsets>
-    </variable-font>
-  </variable-fonts>
   <instances>
     <instance familyname="MutatorSans" stylename="LightCondensed" filename="instances/MutatorSans-LightCondensed.ufo" postscriptfontname="MutatorSans-LightCondensed">
       <location>
@@ -225,7 +190,7 @@
       <key>com.letterror.designspaceEditor.previewLocation</key>
       <dict>
         <key>slab</key>
-        <real>0.0</real>
+        <real>1.0</real>
         <key>weight</key>
         <real>1000.0</real>
         <key>width</key>
@@ -233,6 +198,17 @@
       </dict>
       <key>com.letterror.designspaceEditor.previewText</key>
       <string>HACKATHON</string>
+      <key>com.letterror.longboard.interactionSources</key>
+      <array>
+        <array>
+          <string>width</string>
+          <string>horizontal</string>
+        </array>
+        <array>
+          <string>weight</string>
+          <string>ignore</string>
+        </array>
+      </array>
       <key>com.letterror.mathModelPref</key>
       <string>previewMutatorMath</string>
       <key>com.letterror.skateboard.interactionSources</key>
@@ -248,6 +224,14 @@
           <string>weight</string>
         </array>
       </dict>
+      <key>com.typesupply.prepolator.strictAnchors</key>
+      <false/>
+      <key>com.typesupply.prepolator.strictComponents</key>
+      <false/>
+      <key>com.typesupply.prepolator.strictGuidelines</key>
+      <false/>
+      <key>com.typesupply.prepolator.strictOffCurves</key>
+      <false/>
       <key>designspaceEdit.notes</key>
       <string></string>
     </dict>
