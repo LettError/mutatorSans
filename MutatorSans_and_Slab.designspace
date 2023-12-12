@@ -172,16 +172,16 @@
     </instance>
     <instance familyname="MutatorSans" stylename="UserLocation_700" filename="instances/MutatorSans-UserLocation_700.ufo" postscriptfontname="MutatorSans-UserLocation_700">
       <location>
-        <dimension name="width" xvalue="0"/>
-        <dimension name="weight" xvalue="0"/>
-        <dimension name="slab" xvalue="0"/>
+        <dimension name="width" uservalue="700"/>
+        <dimension name="weight" uservalue="775.609"/>
+        <dimension name="slab" uservalue="0"/>
       </location>
     </instance>
     <instance familyname="MutatorSans" stylename="UserLocation_100" filename="instances/MutatorSans-UserLocation_100.ufo" postscriptfontname="MutatorSans-UserLocation_100">
       <location>
-        <dimension name="width" xvalue="0"/>
-        <dimension name="weight" xvalue="0"/>
-        <dimension name="slab" xvalue="0"/>
+        <dimension name="width" uservalue="100"/>
+        <dimension name="weight" uservalue="658.597"/>
+        <dimension name="slab" uservalue="0"/>
       </location>
     </instance>
     <instance familyname="MutatorSans" stylename="Medium_Wide_I" filename="instances/MutatorSans-Medium_Wide_I.ufo" postscriptfontname="MutatorSans-Medium_Wide_I">
@@ -193,9 +193,9 @@
     </instance>
     <instance familyname="MutatorSans" stylename="Anisotropic_one" filename="instances/MutatorSans-Anisotropic_one.ufo" postscriptfontname="MutatorSans-Anisotropic_one">
       <location>
-        <dimension name="width" xvalue="0"/>
-        <dimension name="weight" xvalue="0"/>
-        <dimension name="slab" xvalue="0"/>
+        <dimension name="width" uservalue="500"/>
+        <dimension name="weight" uservalue="200"/>
+        <dimension name="slab" uservalue="0"/>
       </location>
     </instance>
     <instance familyname="MutatorSans" stylename="Extrapolate" filename="instances/MutatorSans-Extrapolate.ufo" postscriptfontname="MutatorSans-Extrapolate">

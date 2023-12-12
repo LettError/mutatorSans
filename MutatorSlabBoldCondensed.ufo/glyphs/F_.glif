@@ -1,25 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="F" format="2">
   <advance width="560"/>
   <unicode hex="0046"/>
+  <guideline x="405" y="515" angle="90.0" color="0.386,0.3097,0.614,0.6525" identifier="MLsfuNUxrW"/>
   <outline>
     <contour>
-      <point x="30" y="0" type="line"/>
-      <point x="350" y="0" type="line"/>
-      <point x="350" y="800" type="line"/>
-      <point x="30" y="800" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="431" y="0" type="line"/>
+      <point x="431" y="270" type="line"/>
+      <point x="0" y="270" type="line"/>
     </contour>
     <contour>
-      <point x="130" y="550" type="line"/>
-      <point x="530" y="550" type="line"/>
-      <point x="530" y="800" type="line"/>
-      <point x="130" y="800" type="line"/>
+      <point x="70" y="100" type="line" smooth="yes"/>
+      <point x="360" y="100" type="line"/>
+      <point x="360" y="700" type="line"/>
+      <point x="70" y="700" type="line" smooth="yes"/>
     </contour>
     <contour>
-      <point x="130" y="275" type="line"/>
-      <point x="516" y="275" type="line"/>
-      <point x="516" y="485" type="line"/>
-      <point x="130" y="485" type="line"/>
+      <point x="0" y="530" type="line"/>
+      <point x="429" y="530" type="line"/>
+      <point x="405" y="550" type="line"/>
+      <point x="405" y="480" type="line"/>
+      <point x="570" y="480" type="line"/>
+      <point x="570" y="800" type="line"/>
+      <point x="0" y="800" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="321" type="line"/>
+      <point x="405" y="321" type="line"/>
+      <point x="405" y="295" type="line"/>
+      <point x="516" y="295" type="line"/>
+      <point x="516" y="468" type="line"/>
+      <point x="405" y="468" type="line"/>
+      <point x="405" y="442" type="line"/>
+      <point x="221" y="442" type="line"/>
     </contour>
   </outline>
 </glyph>

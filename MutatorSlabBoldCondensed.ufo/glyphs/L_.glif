@@ -1,19 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-  <advance width="550"/>
+  <advance width="660"/>
   <unicode hex="004C"/>
+  <anchor x="327" y="841" name="top"/>
   <outline>
     <contour>
-      <point x="30" y="0" type="line"/>
-      <point x="350" y="0" type="line"/>
-      <point x="350" y="800" type="line"/>
-      <point x="30" y="800" type="line"/>
+      <point x="15" y="0" type="line"/>
+      <point x="645" y="0" type="line"/>
+      <point x="645" y="480" type="line"/>
+      <point x="403" y="480" type="line"/>
+      <point x="403" y="240" type="line"/>
+      <point x="481" y="270" type="line"/>
+      <point x="15" y="270" type="line"/>
     </contour>
     <contour>
-      <point x="130" y="0" type="line"/>
-      <point x="530" y="0" type="line"/>
-      <point x="530" y="250" type="line"/>
-      <point x="130" y="250" type="line"/>
+      <point x="85" y="100" type="line" smooth="yes"/>
+      <point x="375" y="100" type="line"/>
+      <point x="375" y="700" type="line"/>
+      <point x="85" y="700" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="15" y="530" type="line"/>
+      <point x="445" y="530" type="line"/>
+      <point x="445" y="800" type="line"/>
+      <point x="15" y="800" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4</real>
+    </dict>
+  </lib>
 </glyph>
