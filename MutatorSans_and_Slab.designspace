@@ -38,13 +38,6 @@
         <dimension name="slab" xvalue="0"/>
       </location>
     </source>
-    <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorSans" stylename="LightCondensed" layer="support.crossbar">
-      <location>
-        <dimension name="width" xvalue="0"/>
-        <dimension name="weight" xvalue="700"/>
-        <dimension name="slab" xvalue="0"/>
-      </location>
-    </source>
     <source filename="MutatorSansLightCondensed.ufo" familyname="MutatorSans" stylename="LightCondensed" layer="support.S.wide">
       <location>
         <dimension name="width" xvalue="1000"/>
@@ -85,6 +78,22 @@
       </location>
     </source>
   </sources>
+  <variable-fonts>
+    <variable-font name="MutatorSansVF">
+      <axis-subsets>
+        <axis-subset name="width"/>
+        <axis-subset name="weight"/>
+        <axis-subset name="slab" uservalue="0"/>
+      </axis-subsets>
+    </variable-font>
+    <variable-font name="MutatorSlabVF">
+      <axis-subsets>
+        <axis-subset name="width"/>
+        <axis-subset name="weight"/>
+        <axis-subset name="slab" uservalue="1"/>
+      </axis-subsets>
+    </variable-font>
+  </variable-fonts>
   <instances>
     <instance familyname="MutatorSans" stylename="LightCondensed" filename="instances/MutatorSans-LightCondensed.ufo" postscriptfontname="MutatorSans-LightCondensed">
       <location>
@@ -192,9 +201,9 @@
         <key>slab</key>
         <real>1.0</real>
         <key>weight</key>
-        <real>1000.0</real>
+        <real>724.5901489257812</real>
         <key>width</key>
-        <real>1000.0</real>
+        <real>554.3402709960938</real>
       </dict>
       <key>com.letterror.designspaceEditor.previewText</key>
       <string>HACKATHON</string>

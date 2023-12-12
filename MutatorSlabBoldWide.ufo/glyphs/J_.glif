@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="J" format="2">
   <advance width="1117"/>
   <unicode hex="004A"/>
@@ -22,6 +22,12 @@
       <point x="30" y="377" type="line" smooth="yes"/>
       <point x="30" y="104"/>
       <point x="215" y="-10"/>
+    </contour>
+    <contour>
+      <point x="30" y="550" type="line"/>
+      <point x="930" y="550" type="line"/>
+      <point x="930" y="800" type="line"/>
+      <point x="30" y="800" type="line"/>
     </contour>
   </outline>
 </glyph>
