@@ -220,9 +220,6 @@
       <string>arrowleft</string>
       <string>arrowright</string>
       <string>arrowup</string>
-      <string>I.narrow</string>
-      <string>J.narrow</string>
-      <string>S.closed</string>
       <string>.notdef</string>
     </array>
   </dict>

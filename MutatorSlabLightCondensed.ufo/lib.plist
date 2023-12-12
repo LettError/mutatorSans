@@ -629,9 +629,6 @@
       <string>acute</string>
       <string>dieresis</string>
       <string>IJ</string>
-      <string>I.narrow</string>
-      <string>J.narrow</string>
-      <string>S.closed</string>
       <string>.notdef</string>
     </array>
     <key>testLibItemKey</key>

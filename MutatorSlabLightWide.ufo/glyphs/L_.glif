@@ -7,8 +7,8 @@
     <contour>
       <point x="50" y="0" type="line"/>
       <point x="1050" y="0" type="line"/>
-      <point x="1050" y="360" type="line"/>
-      <point x="1010" y="360" type="line"/>
+      <point x="1050" y="450" type="line"/>
+      <point x="1010" y="450" type="line"/>
       <point x="1010" y="29" type="line"/>
       <point x="1018" y="36" type="line"/>
       <point x="50" y="36" type="line"/>

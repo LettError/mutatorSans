@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-  <advance width="1120"/>
+  <advance width="1095"/>
   <unicode hex="004C"/>
   <anchor x="582" y="841" name="top"/>
   <outline>
     <contour>
       <point x="20" y="0" type="line"/>
       <point x="1075" y="0" type="line"/>
-      <point x="1075" y="480" type="line"/>
-      <point x="803" y="480" type="line"/>
-      <point x="803" y="240" type="line"/>
-      <point x="971" y="270" type="line"/>
-      <point x="20" y="270" type="line"/>
+      <point x="1075" y="610" type="line"/>
+      <point x="755" y="610" type="line"/>
+      <point x="755" y="175" type="line"/>
+      <point x="971" y="250" type="line"/>
+      <point x="20" y="250" type="line"/>
     </contour>
     <contour>
       <point x="150" y="100" type="line" smooth="yes"/>
@@ -20,8 +20,8 @@
       <point x="150" y="700" type="line" smooth="yes"/>
     </contour>
     <contour>
-      <point x="20" y="530" type="line"/>
-      <point x="610" y="530" type="line"/>
+      <point x="20" y="550" type="line"/>
+      <point x="610" y="550" type="line"/>
       <point x="610" y="800" type="line"/>
       <point x="20" y="800" type="line"/>
     </contour>
