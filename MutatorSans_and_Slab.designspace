@@ -213,14 +213,14 @@
       <key>com.letterror.designspaceEditor.previewLocation</key>
       <dict>
         <key>slab</key>
-        <real>1.0</real>
+        <real>0.0</real>
         <key>weight</key>
-        <integer>993</integer>
+        <real>700.0</real>
         <key>width</key>
-        <integer>307</integer>
+        <real>1000.0</real>
       </dict>
       <key>com.letterror.designspaceEditor.previewText</key>
-      <string>ABCD</string>
+      <string>M</string>
       <key>com.letterror.longboard.interactionSources</key>
       <array>
         <array>
