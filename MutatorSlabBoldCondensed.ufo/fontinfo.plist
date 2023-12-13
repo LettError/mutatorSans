@@ -34,9 +34,7 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>MutatorMathTest-BoldCondensed</string>
-    <key>postscriptFullName</key>
-    <string>MutatorMathTest BoldCondensed</string>
+    <string>MutatorSlab-BoldCondensed</string>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>500</integer>

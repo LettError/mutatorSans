@@ -50,8 +50,8 @@
       <point x="359" y="62"/>
     </contour>
     <contour>
-      <point x="315" y="403" type="line"/>
-      <point x="355" y="403" type="line"/>
+      <point x="315" y="433" type="line"/>
+      <point x="355" y="433" type="line"/>
       <point x="355" y="700" type="line"/>
       <point x="315" y="700" type="line"/>
     </contour>

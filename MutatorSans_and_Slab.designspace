@@ -193,6 +193,20 @@
         <dimension name="slab" xvalue="0"/>
       </location>
     </instance>
+    <instance familyname="MutatorSlab" stylename="Anisotropic_Extrapolate" filename="instances/MutatorSlab-Anisotropic_Extrapolate.ufo" postscriptfontname="MutatorSlab-Anisotropic_Extrapolate">
+      <location>
+        <dimension name="width" xvalue="2000"/>
+        <dimension name="weight" xvalue="200" yvalue="1300"/>
+        <dimension name="slab" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="MutatorSlab" stylename="LightCondensed" filename="instances/MutatorSans-LightCondensed.ufo" postscriptfontname="MutatorSlab-LightCondensed">
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+        <dimension name="slab" xvalue="1"/>
+      </location>
+    </instance>
   </instances>
   <lib>
     <dict>
@@ -201,12 +215,12 @@
         <key>slab</key>
         <real>1.0</real>
         <key>weight</key>
-        <real>724.5901489257812</real>
+        <integer>993</integer>
         <key>width</key>
-        <real>554.3402709960938</real>
+        <integer>307</integer>
       </dict>
       <key>com.letterror.designspaceEditor.previewText</key>
-      <string>HACKATHON</string>
+      <string>ABCD</string>
       <key>com.letterror.longboard.interactionSources</key>
       <array>
         <array>

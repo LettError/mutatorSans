@@ -30,14 +30,14 @@
       <point x="105" y="700" type="line" smooth="yes"/>
     </contour>
     <contour>
-      <point x="273" y="341" type="line"/>
-      <point x="423" y="341" type="line"/>
-      <point x="423" y="341" type="line"/>
-      <point x="674" y="341" type="line"/>
-      <point x="674" y="460" type="line"/>
-      <point x="423" y="460" type="line"/>
-      <point x="423" y="460" type="line"/>
-      <point x="273" y="460" type="line"/>
+      <point x="133" y="341" type="line"/>
+      <point x="233" y="341" type="line"/>
+      <point x="233" y="341" type="line"/>
+      <point x="474" y="341" type="line"/>
+      <point x="474" y="460" type="line"/>
+      <point x="233" y="460" type="line"/>
+      <point x="233" y="460" type="line"/>
+      <point x="133" y="460" type="line"/>
     </contour>
   </outline>
   <lib>

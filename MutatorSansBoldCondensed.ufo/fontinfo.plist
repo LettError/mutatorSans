@@ -11,7 +11,7 @@
     <key>descender</key>
     <integer>-200</integer>
     <key>familyName</key>
-    <string>MutatorSlab</string>
+    <string>MutatorSans</string>
     <key>guidelines</key>
     <array/>
     <key>italicAngle</key>
@@ -34,9 +34,7 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>MutatorMathTest-BoldCondensed</string>
-    <key>postscriptFullName</key>
-    <string>MutatorMathTest BoldCondensed</string>
+    <string>MutatorSans-BoldCondensed</string>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>500</integer>

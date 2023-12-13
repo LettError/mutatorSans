@@ -26,5 +26,9 @@
       <string>support.S.middle</string>
       <string>glyphs.support.S_.middle</string>
     </array>
+    <array>
+      <string>crayon</string>
+      <string>glyphs.crayon</string>
+    </array>
   </array>
 </plist>

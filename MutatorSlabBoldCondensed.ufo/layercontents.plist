@@ -10,5 +10,9 @@
       <string>background</string>
       <string>glyphs.background</string>
     </array>
+    <array>
+      <string>crayon</string>
+      <string>glyphs.crayon</string>
+    </array>
   </array>
 </plist>
