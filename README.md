@@ -1,4 +1,4 @@
-# MutatorSans
+# The Mutator Family
 ![The 4 contributing UFO sources](mutatormasters.png)
 ![An animated interpolation of the word "FISHERIES"](mutatorSans.gif)
 This project consists of [UFO](http://unifiedfontobject.org) source font data for a small 2 dimensional [designspace](https://fonttools.readthedocs.io/en/latest/designspaceLib/python.html).

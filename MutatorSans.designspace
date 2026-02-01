@@ -172,18 +172,41 @@
         <dimension name="weight" xvalue="700"/>
       </location>
     </instance>
+    <instance name="instance.14" familyname="MutatorSans" stylename="Rule_result_1" filename="instances/MutatorSans-Rule_result_1.ufo">
+      <location>
+        <dimension name="width" xvalue="140"/>
+        <dimension name="weight" xvalue="140"/>
+      </location>
+    </instance>
+    <instance name="instance.14" familyname="MutatorSans" stylename="Rule_result_2" filename="instances/MutatorSans-Rule_result_2.ufo">
+      <location>
+        <dimension name="width" xvalue="700"/>
+        <dimension name="weight" xvalue="700"/>
+      </location>
+    </instance>
   </instances>
   <lib>
     <dict>
       <key>com.letterror.designspaceEditor.previewLocation</key>
       <dict>
         <key>weight</key>
-        <real>1000.0</real>
+        <real>146.73033142089844</real>
         <key>width</key>
-        <real>1000.0</real>
+        <real>58.626346588134766</real>
       </dict>
       <key>com.letterror.designspaceEditor.previewText</key>
-      <string>SPARSE</string>
+      <string>FISH</string>
+      <key>com.letterror.longboard.interactionSources</key>
+      <array>
+        <array>
+          <string>width</string>
+          <string>horizontal</string>
+        </array>
+        <array>
+          <string>weight</string>
+          <string>vertical</string>
+        </array>
+      </array>
       <key>com.letterror.mathModelPref</key>
       <string>previewMutatorMath</string>
       <key>com.letterror.skateboard.interactionSources</key>
